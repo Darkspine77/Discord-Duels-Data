@@ -1,0 +1,47 @@
+{
+	"bosses": [{
+		"name": "Layl Najma: Leader of The Moonlight Cult",
+		"base_health": 50000,
+		"weapon": {
+			"name": "Lunar Salvation"
+		},
+		"skillpoints":{
+			"speed":0,
+			"strength":0,
+			"perception":0
+		}
+	}, {
+		"name": "Sunfire Elder Dragon",
+		"base_health": 40000,
+		"weapon": {
+			"name": "Searing Skyfangs"
+		},
+		"skillpoints":{
+			"speed":0,
+			"strength":0,
+			"perception":0
+		}
+	}, {
+		"name": "Harbringer of Ragnarok",
+		"base_health": 30000,
+		"weapon": {
+			"name": "World's End"
+		},
+		"skillpoints":{
+			"speed":0,
+			"strength":0,
+			"perception":0
+		}
+	},{
+		"name": "Vorageon: The Colossal Undersea Leviathan",
+		"base_health": 120000,
+		"weapon": {
+			"name": "Ocean's Pull"
+		},
+		"skillpoints":{
+			"speed":0,
+			"strength":0,
+			"perception":0
+		}
+	}]
+}
