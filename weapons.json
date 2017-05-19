@@ -1500,5 +1500,31 @@
     "effects": [
       "Heavy Blade"
     ]
+  },
+  {
+    "id": "058",
+    "type": "Melee",
+    "name": "Forgeman's Dual Hammers",
+    "level": 1,
+    "count": 1,
+    "cost": 400,
+    "goldToUpgrade": 275,
+    "moveDamage": {
+      "0": [
+        2,
+        80
+      ],
+      "1": [
+        7,
+        100         
+      ],
+      "2": [
+        15,
+        160
+      ]
+    },
+    "effects": [
+      "Shattering Strikes"
+    ]
   }
 ]
