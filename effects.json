@@ -2474,5 +2474,40 @@
       0
     ],
     "statusDuration": 1
+  },
+  {
+    "name": "Shattering Blows",
+    "id": "066",
+    "chance": 0,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": false,
+    "effectDescription": "For every Rush, all attacks deal MODIFIER additional damage",
+    "effectOnMoves": [
+      "0",
+      "1",
+      "2"
+    ],
+    "effectModifier": "heal",
+    "modifier": [
+      6,
+      60
+    ],
+    "requiresSuccess": 0,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": true,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": 10,
+    "applyStatus": false,
+    "statusTarget": "self",
+    "statusEffect": "stagger",
+    "statusStrength": [
+      0,
+      0
+    ],
+    "statusDuration": 1
   }
 ]
