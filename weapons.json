@@ -210,7 +210,7 @@
     "name": "Phantasmic Essence",
     "level": 1,
     "count": 1,
-    "goldToUpgrade": 575,
+    "goldToUpgrade": 75,
     "moveDamage": {
       "0": [
         4,
