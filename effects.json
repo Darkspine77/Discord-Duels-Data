@@ -2509,5 +2509,40 @@
       0
     ],
     "statusDuration": 1
+  },
+  {
+    "name": "Mighty Spirit",
+    "id": "067",
+    "chance": 0,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": false,
+    "effectDescription": "All attacks cause stagger effect for 1 turn",
+    "effectOnMoves": [
+      "0",
+      "1",
+      "2"
+    ],
+    "effectModifier": "heal",
+    "modifier": [
+      0,
+      0
+    ],
+    "requiresSuccess": 0,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": 10,
+    "applyStatus": true,
+    "statusTarget": "enemy",
+    "statusEffect": "stagger",
+    "statusStrength": [
+      0,
+      0
+    ],
+    "statusDuration": 1
   }
 ]
