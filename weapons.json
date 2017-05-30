@@ -210,7 +210,7 @@
     "name": "Phantasmic Essence",
     "level": 1,
     "count": 1,
-    "goldToUpgrade": 75,
+    "goldToUpgrade": 575,
     "moveDamage": {
       "0": [
         4,
@@ -1525,6 +1525,32 @@
     },
     "effects": [
       "Shattering Blows"
+    ]
+  },
+  {
+    "id": "060",
+    "type": "Melee",
+    "name": "Paladin's Long Sword",
+    "level": 1,
+    "count": 1,
+    "cost": 600,
+    "goldToUpgrade": 325,
+    "moveDamage": {
+      "0": [
+        13,
+        75
+      ],
+      "1": [
+        20,
+        180         
+      ],
+      "2": [
+        25,
+        200
+      ]
+    },
+    "effects": [
+      "Mighty Spirit"
     ]
   }
 ]
