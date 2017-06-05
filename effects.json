@@ -418,13 +418,13 @@
   {
     "name": "Furious Gust",
     "id": "012",
-    "chance": 45,
+    "chance": 60,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Strikes have 45% chance to stagger for 2 turns",
+    "effectDescription": "Strikes have 60% chance to stagger for 2 turns",
     "effectOnMoves": [
       "1"
     ],
@@ -605,13 +605,13 @@
   {
     "name": "Forceful Shot",
     "id": "017",
-    "chance": 20,
+    "chance": 40,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "All Successful attacks have a 30% chance to cause stagger effect for three turns",
+    "effectDescription": "All Successful attacks have a 40% chance to cause stagger effect for three turns",
     "effectOnMoves": [
       "0",
       "1",
@@ -948,7 +948,7 @@
       0
     ],
     "overpower": false,
-    "effectDescription": "Failed Strikes and Counters heal for MODIFIER health and cause dizzy effect for STRENGTH% of target health for 3 turns",
+    "effectDescription": "Failed Strikes and Counters heal for MODIFIER health and cause dizzy effect for STRENGTH% for 3 turns",
     "effectOnMoves": [
       "1",
       "2"
@@ -972,8 +972,8 @@
     "statusTarget": "enemy",
     "statusEffect": "dizzy",
     "statusStrength": [
-      0.1,
-      0.275
+      0.25,
+      0.475
     ],
     "statusDuration": 1
   },
@@ -1356,14 +1356,14 @@
       -1,
       -1
     ],
-    "applyStatus": false,
+    "applyStatus": true,
     "statusTarget": "enemy",
-    "statusEffect": "bleed",
+    "statusEffect": "stun",
     "statusStrength": [
-      0.01,
-      0.033
+        0,
+        0
     ],
-    "statusDuration": 1
+    "statusDuration": 3
   },
   {
     "name": "Malfunction",
@@ -2064,7 +2064,7 @@
       0
     ],
     "overpower": false,
-    "effectDescription": "All attacks cause dizzy effect for STRENGTH% of targets health for 1 turn",
+    "effectDescription": "All attacks cause dizzy effect for STRENGTH% for 1 turn",
     "effectOnMoves": [
       "0",
       "1",
@@ -2089,8 +2089,8 @@
     "statusTarget": "enemy",
     "statusEffect": "dizzy",
     "statusStrength": [
-      0.05,
-      0.15
+      0.20,
+      0.40
     ],
     "statusDuration": 1
   },
@@ -2443,13 +2443,13 @@
   {
     "name": "Heavy Blade",
     "id": "065",
-    "chance": 60,
+    "chance": 70,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "All attacks have a 60% chance to cause a stagger effect for 1 turn",
+    "effectDescription": "All attacks have a 70% chance to cause a stagger effect on the user for 1 turn",
     "effectOnMoves": [
       "0",
       "1",
@@ -2544,5 +2544,142 @@
       0
     ],
     "statusDuration": 1
+  },
+  {
+    "name": "Blade Burst",
+    "id": "068",
+    "chance": 65,
+    "recoil": [
+      30,
+      150
+    ],
+    "overpower": false,
+    "effectDescription": "All rushes have a 65% chance to deal RECOIL recoil damage and cause a bleed effect on the target for STRENGTH% of their health for 2 turns",
+    "effectOnMoves": [
+      "0"
+    ],
+    "effectModifier": "heal",
+    "modifier": [
+      0,
+      0
+    ],
+    "requiresSuccess": 0,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": 10,
+    "applyStatus": true,
+    "statusTarget": "enemy",
+    "statusEffect": "bleed",
+    "statusStrength": [
+      0.12,
+      0.20
+    ],
+    "statusDuration": 4
+  },
+  {
+    "name": "Full Payload",
+    "id": "069",
+    "chance": 0,
+    "recoil": [
+      30,
+      150
+    ],
+    "overpower": false,
+    "effectDescription": "All Successful strikes and counters deal MODIFIER recoil damage and cause a stun effect on the user for 1 turn",
+    "effectOnMoves": [
+      "1",
+      "2"
+    ],
+    "effectModifier": "damage",
+    "modifier": [
+      20,
+      120
+    ],
+    "requiresSuccess": 1,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": 10,
+    "applyStatus": true,
+    "statusTarget": "self",
+    "statusEffect": "stun",
+    "statusStrength": [
+      0,
+      0
+    ],
+    "statusDuration": 1
+  },
+  {
+    "name": "Havoc Swing",
+    "id": "071",
+    "chance": 60,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": false,
+    "effectDescription": "All attacks have a 60% chance to cause a bleed effect for STRENGTH% on the target for 1 turn",
+    "effectOnMoves": [
+      "0",
+      "1",
+      "2"
+    ],
+    "effectModifier": "damage",
+    "modifier": [
+      0,
+      0
+    ],
+    "requiresSuccess": 0,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": 10,
+    "applyStatus": true,
+    "statusTarget": "enemy",
+    "statusEffect": "bleed",
+    "statusStrength": [
+      0.10,
+      0.20
+    ],
+    "statusDuration": 1
+  },
+  {
+    "name": "Purge of Nature",
+    "id": "072",
+    "chance": 0,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": false,
+    "effectDescription": "All failed attacks stun the enemy for 2 turns",
+    "effectOnMoves": [
+      "0",
+      "1",
+      "2"
+    ],
+    "effectModifier": "damage",
+    "modifier": [
+      0,
+      0
+    ],
+    "requiresSuccess": -1,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": 10,
+    "applyStatus": true,
+    "statusTarget": "enemy",
+    "statusEffect": "stun",
+    "statusStrength": [
+      0,
+      0
+    ],
+    "statusDuration": 2
   }
 ]
