@@ -2681,5 +2681,38 @@
       0
     ],
     "statusDuration": 2
+  },
+  {
+    "name": "Adaptive Counter",
+    "id": "073",
+    "chance": 0,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": false,
+    "effectDescription": "All counters cause a dizzy effect on the enemy for STRENGTH%",
+    "effectOnMoves": [
+      "2"
+    ],
+    "effectModifier": "damage",
+    "modifier": [
+      0,
+      0
+    ],
+    "requiresSuccess": 0,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": 10,
+    "applyStatus": true,
+    "statusTarget": "enemy",
+    "statusEffect": "dizzy",
+    "statusStrength": [
+      0.325,
+      0.75
+    ],
+    "statusDuration": 2
   }
 ]
