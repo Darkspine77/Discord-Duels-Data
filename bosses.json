@@ -34,9 +34,20 @@
 		}
 	},{
 		"name": "Vorageon: The Colossal Undersea Leviathan",
-		"base_health": 120000,
+		"base_health": 100000,
 		"weapon": {
 			"name": "Ocean's Pull"
+		},
+		"skillpoints":{
+			"speed":0,
+			"strength":0,
+			"perception":0
+		}
+	},{
+		"name": "Paramegonas: The Unholy Abomination",
+		"base_health": 75000,
+		"weapon": {
+			"name": "Blade of Corrupted Souls"
 		},
 		"skillpoints":{
 			"speed":0,
