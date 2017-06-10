@@ -1446,13 +1446,13 @@
   {
     "name": "Alure",
     "id": "039",
-    "chance": 45,
+    "chance": 60,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "All Counters have a 45% chance to cause a stun effect 2 turns. Also, for every counter, Counters do MODIFIER less damage",
+    "effectDescription": "All Counters have a 60% chance to cause a stun effect 2 turns. Also, for every counter, Counters do MODIFIER less damage",
     "effectOnMoves": [
       "2"
     ],
@@ -2103,7 +2103,7 @@
       0
     ],
     "overpower": false,
-    "effectDescription": "All attacks after at least 2 Rushes, 2 Strikes, and 2 Counteres, clear stacks, deal MODIFIER additional damage and cause stun effect for 2 turns",
+    "effectDescription": "All attacks after at least 1 Rush, 1 Strike, and 1 Counter, clear stacks, deal MODIFIER additional damage and cause stun effect for 2 turns",
     "effectOnMoves": [
       "0",
       "1",
@@ -2111,8 +2111,8 @@
     ],
     "effectModifier": "damage",
     "modifier": [
-      25,
-      75
+      10,
+      50
     ],
     "requiresSuccess": 0,
     "requiresCounters": true,
@@ -2120,9 +2120,9 @@
     "equalCounter": "1",
     "clearCounters": true,
     "requiredCounters": [
-      2,
-      2,
-      2
+      1,
+      1,
+      1
     ],
     "applyStatus": true,
     "statusTarget": "enemy",
@@ -2714,5 +2714,73 @@
       0.75
     ],
     "statusDuration": 2
+  },
+  {
+    "name": "Sweeping Strikes",
+    "id": "074",
+    "chance": 20,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": true,
+    "effectDescription": "All attacks have a 20% chance to overpower",
+    "effectOnMoves": [
+      "0",
+      "1",
+      "2"
+    ],
+    "effectModifier": "damage",
+    "modifier": [
+      0,
+      0
+    ],
+    "requiresSuccess": 0,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": 10,
+    "applyStatus": false,
+    "statusTarget": "enemy",
+    "statusEffect": "dizzy",
+    "statusStrength": [
+      0.325,
+      0.75
+    ],
+    "statusDuration": 2
+  },
+  {
+    "name": "Swift Stab",
+    "id": "075",
+    "chance": 0,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": true,
+    "effectDescription": "Successful rushes stun the enemy for 1 turn",
+    "effectOnMoves": [
+      "0"
+    ],
+    "effectModifier": "damage",
+    "modifier": [
+      0,
+      0
+    ],
+    "requiresSuccess": 1,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": 10,
+    "applyStatus": true,
+    "statusTarget": "enemy",
+    "statusEffect": "stun",
+    "statusStrength": [
+      0,
+      0
+    ],
+    "statusDuration": 1
   }
 ]
