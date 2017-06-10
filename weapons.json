@@ -1607,6 +1607,33 @@
         "Havoc Swing",
         "Purge of Nature"
       ]
+    },
+    {
+      "id": "063",
+      "type": "Melee",
+      "name": "Deserter's Halberd",
+      "level": 1,
+      "count": 1,
+      "cost": 400,
+      "goldToUpgrade": 360,
+      "moveDamage": {
+        "0": [
+          6,
+          65
+        ],
+        "1": [
+          20,
+          200
+        ],
+        "2": [
+          16,
+          165
+        ]
+      },
+      "effects": [
+        "Sweeping Strikes",
+        "Swift Stab"
+      ]
     }
   ]
 }
