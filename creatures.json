@@ -16,8 +16,15 @@
         "sellValue": 15,
         "chance": 20,
         "count": 1
+      },
+      {
+        "name": "Goblin's Club",
+        "level": 1,
+        "chance": 80,
+        "goldToUpgrade": 65
       }
-    ]
+    ],
+    "id": 1
   },
   {
     "name": "Wolf",
@@ -36,28 +43,15 @@
         "sellValue": 5,
         "chance": 50,
         "count": 1
-      }
-    ]
-  },
-  {
-    "name": "Vampire Bat",
-    "tier": 1,
-    "level_multiplier": 0.8,
-    "base_health": 12,
-    "exp_level": 1,
-    "gold_yield": 11,
-    "weapon": {
-      "name": "Vampire Bat's Fangs",
-      "level": 1
-    },
-    "drops": [
+      },
       {
-        "name": "Bat's Wing",
-        "sellValue": 20,
-        "chance": 10,
-        "count": 1
+        "name": "Wolf's Fangs",
+        "level": 1,
+        "chance": 80,
+        "goldToUpgrade": 65
       }
-    ]
+    ],
+    "id": 2
   },
   {
     "name": "Death Wisp",
@@ -76,168 +70,15 @@
         "sellValue": 40,
         "chance": 10,
         "count": 1
-      }
-    ]
-  },
-  {
-    "name": "Swamp Drake",
-    "tier": 2,
-    "level_multiplier": 0.9,
-    "base_health": 15,
-    "exp_level": 3,
-    "gold_yield": 15,
-    "weapon": {
-      "name": "Dragon's Claws",
-      "level": 1
-    },
-    "drops": [
+      },
       {
-        "name": "Muddy Scale",
-        "sellValue": 15,
-        "chance": 30,
-        "count": 1
-      }
-    ]
-  },
-  {
-    "name": "Elven Assasin",
-    "tier": 1,
-    "level_multiplier": 0.8,
-    "base_health": 13,
-    "exp_level": 2,
-    "gold_yield": 14,
-    "weapon": {
-      "name": "Hexed Bow",
-      "level": 1
-    },
-    "drops": [
-      {
-        "name": "Hedge Cloak",
-        "sellValue": 10,
-        "chance": 60,
-        "count": 1
-      }
-    ]
-  },
-  {
-    "name": "Boulder Colossus",
-    "tier": 2,
-    "level_multiplier": 1.5,
-    "base_health": 13,
-    "exp_level": 3,
-    "gold_yield": 17,
-    "weapon": {
-      "name": "Mountain's Fist",
-      "level": 1
-    },
-    "drops": [
-      {
-        "name": "Battered Boulder",
-        "sellValue": 8,
+        "name": "Phantasmic Essence",
+        "level": 1,
         "chance": 80,
-        "count": 1
+        "goldToUpgrade": 65
       }
-    ]
-  },
-  {
-    "name": "Void Warlock",
-    "tier": 2,
-    "level_multiplier": 0.6,
-    "base_health": 10,
-    "exp_level": 3,
-    "gold_yield": 16,
-    "weapon": {
-      "name": "Banished Scepter",
-      "level": 1
-    },
-    "drops": [
-      {
-        "name": "Fragmented Essence",
-        "sellValue": 80,
-        "chance": 5,
-        "count": 1
-      }
-    ]
-  },
-  {
-    "name": "Wind Wraith",
-    "tier": 2,
-    "level_multiplier": 0.9,
-    "base_health": 6,
-    "exp_level": 4,
-    "gold_yield": 16,
-    "weapon": {
-      "name": "Storm's Fury",
-      "level": 1
-    },
-    "drops": [
-      {
-        "name": "Heart Of The Storm",
-        "sellValue": 40,
-        "chance": 15,
-        "count": 1
-      }
-    ]
-  },
-  {
-    "name": "Wild Phoenix",
-    "tier": 2,
-    "level_multiplier": 0.9,
-    "base_health": 8,
-    "exp_level": 4,
-    "gold_yield": 17,
-    "weapon": {
-      "name": "Solar Talons",
-      "level": 1
-    },
-    "drops": [
-      {
-        "name": "Eternal Embers",
-        "sellValue": 50,
-        "chance": 20,
-        "count": 1
-      }
-    ]
-  },
-  {
-    "name": "Moonlight Cultist",
-    "tier": 2,
-    "level_multiplier": 0.9,
-    "base_health": 9,
-    "exp_level": 4,
-    "gold_yield": 18,
-    "weapon": {
-      "name": "The Eclipse",
-      "level": 1
-    },
-    "drops": [
-      {
-        "name": "Eclipse Stone",
-        "sellValue": 100,
-        "chance": 10,
-        "count": 1
-      }
-    ]
-  },
-  {
-    "name": "Giant Cavern Spider",
-    "tier": 3,
-    "level_multiplier": 1.1,
-    "base_health": 20,
-    "exp_level": 5,
-    "gold_yield": 19,
-    "weapon": {
-      "name": "Sharpened Cephalothorax",
-      "level": 1
-    },
-    "drops": [
-      {
-        "name": "Cavern Monsters Fangs",
-        "sellValue": 70,
-        "chance": 20,
-        "count": 1
-      }
-    ]
+    ],
+    "id": 3
   },
   {
     "name": "Undead Soldier",
@@ -256,28 +97,258 @@
         "sellValue": 50,
         "chance": 40,
         "count": 1
+      },
+      {
+        "name": "Ancient Sword & Shield",
+        "level": 1,
+        "chance": 80,
+        "goldToUpgrade": 65
       }
-    ]
+    ],
+    "id": 4
   },
   {
-    "name": "Rift Nomad",
-    "tier": 3,
-    "level_multiplier": 1.2,
-    "base_health": 27,
-    "exp_level": 5,
-    "gold_yield": 20,
+    "name": "Elven Assasin",
+    "tier": 1,
+    "level_multiplier": 0.8,
+    "base_health": 13,
+    "exp_level": 2,
+    "gold_yield": 14,
     "weapon": {
-      "name": "Riftwalker's Scythe",
+      "name": "Hexed Bow",
       "level": 1
     },
     "drops": [
       {
-        "name": "Dimensional Fabric",
-        "sellValue": 200,
+        "name": "Hedge Cloak",
+        "sellValue": 10,
+        "chance": 60,
+        "count": 1
+      },
+      {
+        "name": "Hexed Bow",
+        "level": 1,
+        "chance": 80,
+        "goldToUpgrade": 65
+      }
+    ],
+    "id": 5
+  },
+  {
+    "name": "Vampire Bat",
+    "tier": 1,
+    "level_multiplier": 0.8,
+    "base_health": 12,
+    "exp_level": 1,
+    "gold_yield": 11,
+    "weapon": {
+      "name": "Vampire Bat's Fangs",
+      "level": 1
+    },
+    "drops": [
+      {
+        "name": "Bat's Wing",
+        "sellValue": 20,
+        "chance": 10,
+        "count": 1
+      },
+      {
+        "name": "Vampire Bat's Fangs",
+        "level": 1,
+        "chance": 80,
+        "goldToUpgrade": 65
+      }
+    ],
+    "id": 6
+  },
+  {
+    "name": "Void Warlock",
+    "tier": 2,
+    "level_multiplier": 0.6,
+    "base_health": 10,
+    "exp_level": 3,
+    "gold_yield": 16,
+    "weapon": {
+      "name": "Banished Scepter",
+      "level": 1
+    },
+    "drops": [
+      {
+        "name": "Fragmented Essence",
+        "sellValue": 80,
         "chance": 5,
         "count": 1
+      },
+      {
+        "name": "Banished Scepter",
+        "level": 1,
+        "chance": 40,
+        "goldToUpgrade": 130
       }
-    ]
+    ],
+    "id": 7
+  },
+  {
+    "name": "Moonlight Cultist",
+    "tier": 2,
+    "level_multiplier": 0.9,
+    "base_health": 9,
+    "exp_level": 4,
+    "gold_yield": 18,
+    "weapon": {
+      "name": "The Eclipse",
+      "level": 1
+    },
+    "drops": [
+      {
+        "name": "Eclipse Stone",
+        "sellValue": 100,
+        "chance": 10,
+        "count": 1
+      },
+      {
+        "name": "The Eclipse",
+        "level": 1,
+        "chance": 40,
+        "goldToUpgrade": 130
+      }
+    ],
+    "id": 8
+  },
+  {
+    "name": "Wild Phoenix",
+    "tier": 2,
+    "level_multiplier": 0.9,
+    "base_health": 8,
+    "exp_level": 4,
+    "gold_yield": 17,
+    "weapon": {
+      "name": "Solar Talons",
+      "level": 1
+    },
+    "drops": [
+      {
+        "name": "Eternal Embers",
+        "sellValue": 50,
+        "chance": 20,
+        "count": 1
+      },
+      {
+        "name": "Solar Talons",
+        "level": 1,
+        "chance": 40,
+        "goldToUpgrade": 130
+      }
+    ],
+    "id": 9
+  },
+  {
+    "name": "Boulder Colossus",
+    "tier": 2,
+    "level_multiplier": 1.5,
+    "base_health": 13,
+    "exp_level": 3,
+    "gold_yield": 17,
+    "weapon": {
+      "name": "Mountain's Fist",
+      "level": 1
+    },
+    "drops": [
+      {
+        "name": "Battered Boulder",
+        "sellValue": 8,
+        "chance": 80,
+        "count": 1
+      },
+      {
+        "name": "Mountain's Fist",
+        "level": 1,
+        "chance": 40,
+        "goldToUpgrade": 130
+      }
+    ],
+    "id": 10
+  },
+  {
+    "name": "Wind Wraith",
+    "tier": 2,
+    "level_multiplier": 0.9,
+    "base_health": 6,
+    "exp_level": 4,
+    "gold_yield": 16,
+    "weapon": {
+      "name": "Storm's Fury",
+      "level": 1
+    },
+    "drops": [
+      {
+        "name": "Heart Of The Storm",
+        "sellValue": 40,
+        "chance": 15,
+        "count": 1
+      },
+      {
+        "name": "Storm's Fury",
+        "level": 1,
+        "chance": 40,
+        "goldToUpgrade": 130
+      }
+    ],
+    "id": 11
+  },
+  {
+    "name": "Swamp Drake",
+    "tier": 2,
+    "level_multiplier": 0.9,
+    "base_health": 15,
+    "exp_level": 3,
+    "gold_yield": 15,
+    "weapon": {
+      "name": "Dragon's Claws",
+      "level": 1
+    },
+    "drops": [
+      {
+        "name": "Muddy Scale",
+        "sellValue": 15,
+        "chance": 30,
+        "count": 1
+      },
+      {
+        "name": "Dragon's Claws",
+        "level": 1,
+        "chance": 40,
+        "goldToUpgrade": 130
+      }
+    ],
+    "id": 12
+  },
+  {
+    "name": "Giant Cavern Spider",
+    "tier": 3,
+    "level_multiplier": 1.1,
+    "base_health": 20,
+    "exp_level": 5,
+    "gold_yield": 19,
+    "weapon": {
+      "name": "Sharpened Cephalothorax",
+      "level": 1
+    },
+    "drops": [
+      {
+        "name": "Cavern Monsters Fangs",
+        "sellValue": 70,
+        "chance": 20,
+        "count": 1
+      },
+      {
+        "name": "Sharpened Cephalothorax",
+        "level": 1,
+        "chance": 26.666666666667,
+        "goldToUpgrade": 195
+      }
+    ],
+    "id": 13
   },
   {
     "name": "Bloodthirsty Hellhound",
@@ -296,8 +367,15 @@
         "sellValue": 70,
         "chance": 20,
         "count": 1
+      },
+      {
+        "name": "Bloodthirster's Fangs",
+        "level": 1,
+        "chance": 26.666666666667,
+        "goldToUpgrade": 195
       }
-    ]
+    ],
+    "id": 14
   },
   {
     "name": "Shinefrost Rogue",
@@ -316,13 +394,20 @@
         "sellValue": 100,
         "chance": 10,
         "count": 1
+      },
+      {
+        "name": "Stolen Aurorean War Hammer",
+        "level": 1,
+        "chance": 26.666666666667,
+        "goldToUpgrade": 195
       }
-    ]
+    ],
+    "id": 15
   },
   {
     "name": "BloodWood Centaur",
     "tier": 3,
-    "level_multiplier": 1.4,
+    "level_multiplier": 1.6,
     "base_health": 29,
     "exp_level": 6,
     "gold_yield": 21,
@@ -336,8 +421,15 @@
         "sellValue": 30,
         "chance": 30,
         "count": 1
+      },
+      {
+        "name": "BloodWood Bow",
+        "level": 1,
+        "chance": 26.666666666667,
+        "goldToUpgrade": 195
       }
-    ]
+    ],
+    "id": 16
   },
   {
     "name": "Realm Exile",
@@ -356,8 +448,42 @@
         "sellValue": 200,
         "chance": 5,
         "count": 1
+      },
+      {
+        "name": "Gatekeeper's Scepter",
+        "level": 1,
+        "chance": 26.666666666667,
+        "goldToUpgrade": 195
       }
-    ]
+    ],
+    "id": 17
+  },
+  {
+    "name": "Rift Nomad",
+    "tier": 3,
+    "level_multiplier": 1.2,
+    "base_health": 27,
+    "exp_level": 5,
+    "gold_yield": 20,
+    "weapon": {
+      "name": "Riftwalker's Scythe",
+      "level": 1
+    },
+    "drops": [
+      {
+        "name": "Dimensional Fabric",
+        "sellValue": 200,
+        "chance": 5,
+        "count": 1
+      },
+      {
+        "name": "Riftwalker's Scythe",
+        "level": 1,
+        "chance": 26.666666666667,
+        "goldToUpgrade": 195
+      }
+    ],
+    "id": 18
   },
   {
     "name": "Insane Magi-Tech Scientist",
@@ -376,8 +502,15 @@
         "sellValue": 50,
         "chance": 20,
         "count": 1
+      },
+      {
+        "name": "Magi-Tech Hand Cannon Prototype",
+        "level": 1,
+        "chance": 20,
+        "goldToUpgrade": 260
       }
-    ]
+    ],
+    "id": 19
   },
   {
     "name": "Bloodlusting Princess",
@@ -396,8 +529,15 @@
         "sellValue": 400,
         "chance": 2,
         "count": 1
+      },
+      {
+        "name": "Bloody Mary",
+        "level": 1,
+        "chance": 20,
+        "goldToUpgrade": 260
       }
-    ]
+    ],
+    "id": 20
   },
   {
     "name": "Foreign Executioner",
@@ -416,8 +556,15 @@
         "sellValue": 100,
         "chance": 10,
         "count": 1
+      },
+      {
+        "name": "Broken Guilotine",
+        "level": 1,
+        "chance": 20,
+        "goldToUpgrade": 260
       }
-    ]
+    ],
+    "id": 21
   },
   {
     "name": "Ancient Sand Scorpion",
@@ -436,8 +583,15 @@
         "sellValue": 70,
         "chance": 30,
         "count": 1
+      },
+      {
+        "name": "Whethered Stinger",
+        "level": 1,
+        "chance": 20,
+        "goldToUpgrade": 260
       }
-    ]
+    ],
+    "id": 22
   },
   {
     "name": "Samurai of the Wind",
@@ -456,8 +610,15 @@
         "sellValue": 40,
         "chance": 20,
         "count": 1
+      },
+      {
+        "name": "Blade of the Breeze",
+        "level": 1,
+        "chance": 20,
+        "goldToUpgrade": 260
       }
-    ]
+    ],
+    "id": 23
   },
   {
     "name": "Obsidian Colossus",
@@ -476,14 +637,21 @@
         "sellValue": 500,
         "chance": 1,
         "count": 1
+      },
+      {
+        "name": "Blade of the Molten Core",
+        "level": 1,
+        "chance": 20,
+        "goldToUpgrade": 260
       }
-    ]
+    ],
+    "id": 24
   },
   {
     "name": "Forgotten Kingdom's Fool",
     "tier": 5,
     "level_multiplier": 1.4,
-    "base_health": 63,
+    "base_health": 53,
     "exp_level": 9,
     "gold_yield": 28,
     "weapon": {
@@ -496,28 +664,15 @@
         "sellValue": 100,
         "chance": 25,
         "count": 1
-      }
-    ]
-  },
-  {
-    "name": "Acid Spitting Banshee",
-    "tier": 5,
-    "level_multiplier": 1.6,
-    "base_health": 60,
-    "exp_level": 9,
-    "gold_yield": 28,
-    "weapon": {
-      "name": "Acidic Maw",
-      "level": 1
-    },
-    "drops": [
+      },
       {
-        "name": "Hardened Acid Chunk",
-        "sellValue": 80,
-        "chance": 40,
-        "count": 1
+        "name": "Jester's Cards",
+        "level": 1,
+        "chance": 16,
+        "goldToUpgrade": 325
       }
-    ]
+    ],
+    "id": 25
   },
   {
     "name": "Sunstreak Trickster",
@@ -536,8 +691,15 @@
         "sellValue": 120,
         "chance": 30,
         "count": 1
+      },
+      {
+        "name": "Heat Wave Cloak",
+        "level": 1,
+        "chance": 16,
+        "goldToUpgrade": 325
       }
-    ]
+    ],
+    "id": 26
   },
   {
     "name": "Burrowing Menace",
@@ -556,8 +718,15 @@
         "sellValue": 100,
         "chance": 35,
         "count": 1
+      },
+      {
+        "name": "Titanium Fangs",
+        "level": 1,
+        "chance": 16,
+        "goldToUpgrade": 325
       }
-    ]
+    ],
+    "id": 27
   },
   {
     "name": "Minotaur Soldier",
@@ -576,8 +745,15 @@
         "sellValue": 300,
         "chance": 15,
         "count": 1
+      },
+      {
+        "name": "Blood Soaked Axe",
+        "level": 1,
+        "chance": 16,
+        "goldToUpgrade": 325
       }
-    ]
+    ],
+    "id": 28
   },
   {
     "name": "Steampunk Soldier Prototype",
@@ -596,108 +772,42 @@
         "sellValue": 70,
         "chance": 50,
         "count": 1
-      }
-    ]
-  },
-  {
-    "name": "Sunstreak Paladdin",
-    "tier": 6,
-    "level_multiplier": 2.1,
-    "base_health": 81,
-    "exp_level": 11,
-    "gold_yield": 32,
-    "weapon": {
-      "name": "Solar Great Bow",
-      "level": 1
-    },
-    "drops": [
+      },
       {
-        "name": "Sun Keeper's Helemet",
-        "sellValue": 200,
-        "chance": 20,
-        "count": 1
+        "name": "Omni-sword",
+        "level": 1,
+        "chance": 16,
+        "goldToUpgrade": 325
       }
-    ]
+    ],
+    "id": 29
   },
   {
-    "name": "Moonlight Paladdin",
-    "tier": 6,
-    "level_multiplier": 2.1,
-    "base_health": 81,
-    "exp_level": 11,
-    "gold_yield": 32,
-    "weapon": {
-      "name": "Lunar Tonfas",
-      "level": 1
-    },
-    "drops": [
-      {
-        "name": "Moon Keeper's Helemet",
-        "sellValue": 200,
-        "chance": 20,
-        "count": 1
-      }
-    ]
-  },
-  {
-    "name": "Shinefrost Paladdin",
-    "tier": 6,
-    "level_multiplier": 2.1,
-    "base_health": 81,
-    "exp_level": 11,
-    "gold_yield": 33,
-    "weapon": {
-      "name": "Frost Warden's Scepter",
-      "level": 1
-    },
-    "drops": [
-      {
-        "name": "Frost Keeper's Helemet",
-        "sellValue": 250,
-        "chance": 20,
-        "count": 1
-      }
-    ]
-  },
-  {
-    "name": "Wasteland Desolate",
-    "tier": 6,
-    "level_multiplier": 1.9,
-    "base_health": 84,
-    "exp_level": 12,
-    "gold_yield": 33,
-    "weapon": {
-      "name": "Skyflare Whip",
-      "level": 1
-    },
-    "drops": [
-      {
-        "name": "Blaze Keeper's Parchment",
-        "sellValue": 150,
-        "chance": 30,
-        "count": 1
-      }
-    ]
-  },
-  {
-    "name": "Feral War Fox",
-    "tier": 6,
-    "level_multiplier": 1.8,
+    "name": "Acid Spitting Banshee",
+    "tier": 5,
+    "level_multiplier": 1.6,
     "base_health": 60,
-    "exp_level": 12,
-    "gold_yield": 35,
+    "exp_level": 9,
+    "gold_yield": 28,
     "weapon": {
-      "name": "Predeator's Fangs",
+      "name": "Acidic Maw",
       "level": 1
     },
     "drops": [
       {
-        "name": "Eye of the Predeator",
-        "sellValue": 300,
-        "chance": 5,
+        "name": "Hardened Acid Chunk",
+        "sellValue": 80,
+        "chance": 40,
         "count": 1
+      },
+      {
+        "name": "Acidic Maw",
+        "level": 1,
+        "chance": 16,
+        "goldToUpgrade": 325
       }
-    ]
+    ],
+    "id": 30
   },
   {
     "name": "Magi-Tech Golem",
@@ -716,7 +826,467 @@
         "sellValue": 800,
         "chance": 1,
         "count": 1
+      },
+      {
+        "name": "Magi-Tech Modifications",
+        "level": 1,
+        "chance": 13.333333333333,
+        "goldToUpgrade": 390
       }
-    ]
+    ],
+    "id": 31
+  },
+  {
+    "name": "Moonlight Paladdin",
+    "tier": 6,
+    "level_multiplier": 2.1,
+    "base_health": 81,
+    "exp_level": 11,
+    "gold_yield": 32,
+    "weapon": {
+      "name": "Lunar Tonfas",
+      "level": 1
+    },
+    "drops": [
+      {
+        "name": "Moon Keeper's Helemet",
+        "sellValue": 200,
+        "chance": 20,
+        "count": 1
+      },
+      {
+        "name": "Lunar Tonfas",
+        "level": 1,
+        "chance": 13.333333333333,
+        "goldToUpgrade": 390
+      }
+    ],
+    "id": 32
+  },
+  {
+    "name": "Shinefrost Paladdin",
+    "tier": 6,
+    "level_multiplier": 2.1,
+    "base_health": 81,
+    "exp_level": 11,
+    "gold_yield": 33,
+    "weapon": {
+      "name": "Frost Warden's Scepter",
+      "level": 1
+    },
+    "drops": [
+      {
+        "name": "Frost Keeper's Helemet",
+        "sellValue": 250,
+        "chance": 20,
+        "count": 1
+      },
+      {
+        "name": "Frost Warden's Scepter",
+        "level": 1,
+        "chance": 13.333333333333,
+        "goldToUpgrade": 390
+      }
+    ],
+    "id": 33
+  },
+  {
+    "name": "Wasteland Desolate",
+    "tier": 6,
+    "level_multiplier": 1.9,
+    "base_health": 84,
+    "exp_level": 12,
+    "gold_yield": 33,
+    "weapon": {
+      "name": "Skyflare Whip",
+      "level": 1
+    },
+    "drops": [
+      {
+        "name": "Blaze Keeper's Parchment",
+        "sellValue": 150,
+        "chance": 30,
+        "count": 1
+      },
+      {
+        "name": "Skyflare Whip",
+        "level": 1,
+        "chance": 13.333333333333,
+        "goldToUpgrade": 390
+      }
+    ],
+    "id": 34
+  },
+  {
+    "name": "Feral War Fox",
+    "tier": 6,
+    "level_multiplier": 1.8,
+    "base_health": 60,
+    "exp_level": 12,
+    "gold_yield": 35,
+    "weapon": {
+      "name": "Predeator's Fangs",
+      "level": 1
+    },
+    "drops": [
+      {
+        "name": "Eye of the Predeator",
+        "sellValue": 300,
+        "chance": 5,
+        "count": 1
+      },
+      {
+        "name": "Predeator's Fangs",
+        "level": 1,
+        "chance": 13.333333333333,
+        "goldToUpgrade": 390
+      }
+    ],
+    "id": 35
+  },
+  {
+    "name": "Sunstreak Paladdin",
+    "tier": 6,
+    "level_multiplier": 2.1,
+    "base_health": 81,
+    "exp_level": 11,
+    "gold_yield": 32,
+    "weapon": {
+      "name": "Solar Great Bow",
+      "level": 1
+    },
+    "drops": [
+      {
+        "name": "Sun Keeper's Helemet",
+        "sellValue": 200,
+        "chance": 20,
+        "count": 1
+      },
+      {
+        "name": "Solar Great Bow",
+        "level": 1,
+        "chance": 13.333333333333,
+        "goldToUpgrade": 390
+      }
+    ],
+    "id": 36
+  },
+  {
+    "name": "Withering Forest Wraith",
+    "tier": 7,
+    "level_multiplier": 1.7,
+    "base_health": 101,
+    "exp_level": 13,
+    "gold_yield": 37,
+    "weapon": {
+      "name": "Cursed Branches of Tadmir",
+      "level": 1
+    },
+    "drops": [
+      {
+        "name": "Dead Wood",
+        "sellValue": 300,
+        "chance": 15,
+        "count": 1
+      },
+      {
+        "name": "Cursed Branches of Tadmir",
+        "level": 1,
+        "chance": 11.428571428571,
+        "goldToUpgrade": 455
+      }
+    ],
+    "id": 37
+  },
+  {
+    "name": "Dwarven Gladiator",
+    "tier": 7,
+    "level_multiplier": 1.7,
+    "base_health": 90,
+    "exp_level": 13,
+    "gold_yield": 37,
+    "weapon": {
+      "name": "Jakt Fortress Lance",
+      "level": 1
+    },
+    "drops": [
+      {
+        "name": "Dwarf Nose",
+        "sellValue": 500,
+        "chance": 10,
+        "count": 1
+      },
+      {
+        "name": "Jakt Fortress Lance",
+        "level": 1,
+        "chance": 11.428571428571,
+        "goldToUpgrade": 455
+      }
+    ],
+    "id": 38
+  },
+  {
+    "name": "Psychotic Enchantress",
+    "tier": 7,
+    "level_multiplier": 1.8,
+    "base_health": 90,
+    "exp_level": 13,
+    "gold_yield": 38,
+    "weapon": {
+      "name": "Staff of Frozen Souls",
+      "level": 1
+    },
+    "drops": [
+      {
+        "name": "Failed Curse",
+        "sellValue": 250,
+        "chance": 40,
+        "count": 1
+      },
+      {
+        "name": "Staff of Frozen Souls",
+        "level": 1,
+        "chance": 11.428571428571,
+        "goldToUpgrade": 455
+      }
+    ],
+    "id": 39
+  },
+  {
+    "name": "Rabbid Chimera Cub",
+    "tier": 7,
+    "level_multiplier": 1.8,
+    "base_health": 60,
+    "exp_level": 14,
+    "gold_yield": 38,
+    "weapon": {
+      "name": "Poison Coated Claws",
+      "level": 1
+    },
+    "drops": [
+      {
+        "name": "Feral Mane",
+        "sellValue": 400,
+        "chance": 0,
+        "count": 1
+      },
+      {
+        "name": "Poison Coated Claws",
+        "level": 1,
+        "chance": 11.428571428571,
+        "goldToUpgrade": 455
+      }
+    ],
+    "id": 40
+  },
+  {
+    "name": "Guardian of the Rift",
+    "tier": 7,
+    "level_multiplier": 2,
+    "base_health": 95,
+    "exp_level": 14,
+    "gold_yield": 39,
+    "weapon": {
+      "name": "Immovable Broad Sword",
+      "level": 1
+    },
+    "drops": [
+      {
+        "name": "Shard of Existence",
+        "sellValue": 1000,
+        "chance": 1,
+        "count": 1
+      },
+      {
+        "name": "Immovable Broad Sword",
+        "level": 1,
+        "chance": 11.428571428571,
+        "goldToUpgrade": 455
+      }
+    ],
+    "id": 41
+  },
+  {
+    "name": "Warrior of the Lost Ages",
+    "tier": 7,
+    "level_multiplier": 2,
+    "base_health": 89,
+    "exp_level": 14,
+    "gold_yield": 40,
+    "weapon": {
+      "name": "Forgotten Combat Arts",
+      "level": 1
+    },
+    "drops": [
+      {
+        "name": "Ceremonial Headpiece",
+        "sellValue": 1000,
+        "chance": 5,
+        "count": 1
+      },
+      {
+        "name": "Forgotten Combat Arts",
+        "level": 1,
+        "chance": 11.428571428571,
+        "goldToUpgrade": 455
+      }
+    ],
+    "id": 42
+  },
+  {
+    "name": "Abandoned War Griffin",
+    "tier": 8,
+    "level_multiplier": 2.1,
+    "base_health": 95,
+    "exp_level": 15,
+    "gold_yield": 41,
+    "weapon": {
+      "name": "Sharpened Griffin Talons",
+      "level": 1
+    },
+    "drops": [
+      {
+        "name": "Griffin's Feather",
+        "sellValue": 400,
+        "chance": 20,
+        "count": 1
+      },
+      {
+        "name": "Sharpened Griffin Talons",
+        "level": 1,
+        "chance": 10,
+        "goldToUpgrade": 520
+      }
+    ],
+    "id": 43
+  },
+  {
+    "name": "Insane Steampunk Conscript",
+    "tier": 8,
+    "level_multiplier": 2.1,
+    "base_health": 107,
+    "exp_level": 15,
+    "gold_yield": 41,
+    "weapon": {
+      "name": "Steampunk Hammer Cannon",
+      "level": 1
+    },
+    "drops": [
+      {
+        "name": "Conscript's Mask",
+        "sellValue": 300,
+        "chance": 25,
+        "count": 1
+      },
+      {
+        "name": "Steampunk Hammer Cannon",
+        "level": 1,
+        "chance": 10,
+        "goldToUpgrade": 520
+      }
+    ],
+    "id": 44
+  },
+  {
+    "name": "Manifestation of Tormented Souls",
+    "tier": 8,
+    "level_multiplier": 2.2,
+    "base_health": 80,
+    "exp_level": 15,
+    "gold_yield": 42,
+    "weapon": {
+      "name": "Screams of Eternal Torment",
+      "level": 1
+    },
+    "drops": [
+      {
+        "name": "Shattered Soul",
+        "sellValue": 600,
+        "chance": 30,
+        "count": 1
+      },
+      {
+        "name": "Screams of Eternal Torment",
+        "level": 1,
+        "chance": 10,
+        "goldToUpgrade": 520
+      }
+    ],
+    "id": 45
+  },
+  {
+    "name": "Dark Ether Dragon",
+    "tier": 8,
+    "level_multiplier": 2.2,
+    "base_health": 117,
+    "exp_level": 16,
+    "gold_yield": 42,
+    "weapon": {
+      "name": "Devestator's Claws",
+      "level": 1
+    },
+    "drops": [
+      {
+        "name": "Dark Fire Embers",
+        "sellValue": 675,
+        "chance": 20,
+        "count": 1
+      },
+      {
+        "name": "Devestator's Claws",
+        "level": 1,
+        "chance": 10,
+        "goldToUpgrade": 520
+      }
+    ],
+    "id": 46
+  },
+  {
+    "name": "Volcanic Colossus",
+    "tier": 8,
+    "level_multiplier": 2.3,
+    "base_health": 120,
+    "exp_level": 16,
+    "gold_yield": 43,
+    "weapon": {
+      "name": "Molten Battle Mace",
+      "level": 1
+    },
+    "drops": [
+      {
+        "name": "Erupting Core",
+        "sellValue": 1000,
+        "chance": 50,
+        "count": 1
+      },
+      {
+        "name": "Molten Battle Mace",
+        "level": 1,
+        "chance": 10,
+        "goldToUpgrade": 520
+      }
+    ],
+    "id": 47
+  },
+  {
+    "name": "A Lost One",
+    "tier": 8,
+    "level_multiplier": 2.5,
+    "base_health": 130,
+    "exp_level": 16,
+    "gold_yield": 44,
+    "weapon": {
+      "name": "SPECIAL",
+      "level": 1
+    },
+    "drops": [
+      {
+        "name": "Life Core",
+        "sellValue": 3000,
+        "chance": 100,
+        "count": 1
+      }
+    ],
+    "id": 48
   }
 ]
