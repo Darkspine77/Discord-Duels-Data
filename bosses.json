@@ -1,7 +1,7 @@
 {
 	"bosses": [{
 		"name": "Layl Najma: Leader of The Moonlight Cult",
-		"base_health": 50000,
+		"base_health": 7500,
 		"weapon": {
 			"name": "Lunar Salvation"
 		},
@@ -9,10 +9,15 @@
 			"speed":0,
 			"strength":0,
 			"perception":0
+		},
+		"fragment":{
+			"type":"bossItem",
+			"name":"Moonshard Fragment",
+			"id":32
 		}
 	}, {
 		"name": "Sunfire Elder Dragon",
-		"base_health": 40000,
+		"base_health": 6000,
 		"weapon": {
 			"name": "Searing Skyfangs"
 		},
@@ -20,10 +25,15 @@
 			"speed":0,
 			"strength":0,
 			"perception":0
+		},
+		"fragment":{
+			"type":"bossItem",
+			"name":"Molten Scale",
+			"id":34
 		}
 	}, {
 		"name": "Harbringer of Ragnarok",
-		"base_health": 30000,
+		"base_health": 6000,
 		"weapon": {
 			"name": "World's End"
 		},
@@ -31,10 +41,15 @@
 			"speed":0,
 			"strength":0,
 			"perception":0
+		},
+		"fragment":{
+			"type":"bossItem",
+			"name":"Etherial Blade",
+			"id":35
 		}
 	},{
 		"name": "Vorageon: The Colossal Undersea Leviathan",
-		"base_health": 100000,
+		"base_health": 10000,
 		"weapon": {
 			"name": "Ocean's Pull"
 		},
@@ -42,10 +57,15 @@
 			"speed":0,
 			"strength":0,
 			"perception":0
+		},
+		"fragment":{
+			"type":"bossItem",
+			"name":"Ancient Fin",
+			"id":45
 		}
 	},{
 		"name": "Paramegonas: The Unholy Abomination",
-		"base_health": 75000,
+		"base_health": 6500,
 		"weapon": {
 			"name": "Blade of Corrupted Souls"
 		},
@@ -53,6 +73,43 @@
 			"speed":0,
 			"strength":0,
 			"perception":0
+		},
+		"fragment":{
+			"type":"bossItem",
+			"name":"The Broken Soul",
+			"id":62
+		}
+	},{
+		"name": "Alsha Jaza: The Leader of The Sunlight Cult",
+		"base_health": 8000,
+		"weapon": {
+			"name": "Prisim Caster's Blade"
+		},
+		"skillpoints":{
+			"speed":0,
+			"strength":0,
+			"perception":0
+		},
+		"fragment":{
+			"type":"bossItem",
+			"name":"Sunbeam Fragment",
+			"id":70
+		}
+	},{
+		"name": "Maragaedas: The Deadly Blossom",
+		"base_health": 6500,
+		"weapon": {
+			"name": "Plumage of Destruction"
+		},
+		"skillpoints":{
+			"speed":0,
+			"strength":0,
+			"perception":0
+		},
+		"fragment":{
+			"type":"bossItem",
+			"name":"Bewitched Petal",
+			"id":81
 		}
 	}]
 }
