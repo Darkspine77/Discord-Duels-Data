@@ -1,1639 +1,2162 @@
-{
-  "weapons": [
-    {
-      "id": "001",
-      "type": "Melee",
-      "name": "Training Stick",
-      "level": 1,
-      "count": 1,
-      "cost": 5,
-      "goldToUpgrade": 15,
-      "moveDamage": {
-        "0": [
-          12,
-          113
-        ],
-        "1": [
-          12,
-          113
-        ],
-        "2": [
-          12,
-          113
-        ]
-      },
-      "effects": [
-        
+[
+  {
+    "id": 1,
+    "type": "Melee",
+    "name": "Training Stick",
+    "level": 1,
+    "count": null,
+    "cost": 20,
+    "goldToUpgrade": 175,
+    "moveDamage": {
+      "0": [
+        10,
+        101
+      ],
+      "1": [
+        10,
+        101
+      ],
+      "2": [
+        10,
+        101
       ]
     },
-    {
-      "id": "002",
-      "type": "Melee",
-      "name": "Beginner's Blade",
-      "level": 1,
-      "count": 1,
-      "cost": 40,
-      "goldToUpgrade": 20,
-      "moveDamage": {
-        "0": [
-          12,
-          120
-        ],
-        "1": [
-          13,
-          128
-        ],
-        "2": [
-          11,
-          104
-        ]
-      },
-      "effects": [
-        "Resting Assualt"
+    "effects": [
+      
+    ]
+  },
+  {
+    "id": 2,
+    "type": "Melee",
+    "name": "Beginner's Blade",
+    "level": 1,
+    "count": null,
+    "cost": 50,
+    "goldToUpgrade": 175,
+    "moveDamage": {
+      "0": [
+        10,
+        108
+      ],
+      "1": [
+        11,
+        115
+      ],
+      "2": [
+        9,
+        96
       ]
     },
-    {
-      "id": "003",
-      "type": "Ranged",
-      "name": "Novice's Bow",
-      "level": 1,
-      "count": 1,
-      "cost": 270,
-      "goldToUpgrade": 60,
-      "moveDamage": {
-        "0": [
-          4,
-          33
-        ],
-        "1": [
-          17,
-          168
-        ],
-        "2": [
-          4,
-          33
-        ]
-      },
-      "effects": [
-        
+    "effects": [
+      "Resting Assualt"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "Ranged",
+    "name": "Novice's Bow",
+    "level": 1,
+    "count": null,
+    "cost": 50,
+    "goldToUpgrade": 175,
+    "moveDamage": {
+      "0": [
+        2,
+        29
+      ],
+      "1": [
+        15,
+        152
+      ],
+      "2": [
+        2,
+        29
       ]
     },
-    {
-      "id": "004",
-      "type": "Ranged",
-      "name": "Apprentince's Staff",
-      "level": 1,
-      "count": 1,
-      "cost": 260,
-      "goldToUpgrade": 60,
-      "moveDamage": {
-        "0": [
-          14,
-          134
-        ],
-        "1": [
-          15,
-          144
-        ],
-        "2": [
-          12,
-          120
-        ]
-      },
-      "effects": [
-        "Defender's Resillience"
+    "effects": [
+      
+    ]
+  },
+  {
+    "id": 4,
+    "type": "Ranged",
+    "name": "Apprentince's Staff",
+    "level": 1,
+    "count": null,
+    "cost": 50,
+    "goldToUpgrade": 175,
+    "moveDamage": {
+      "0": [
+        12,
+        122
+      ],
+      "1": [
+        12,
+        129
+      ],
+      "2": [
+        10,
+        108
       ]
     },
-    {
-      "id": "005",
-      "type": "Melee",
-      "name": "Scavenger's Daggers",
-      "level": 1,
-      "count": 1,
-      "cost": 260,
-      "goldToUpgrade": 60,
-      "moveDamage": {
-        "0": [
-          16,
-          155
-        ],
-        "1": [
-          9,
-          81
-        ],
-        "2": [
-          13,
-          122
-        ]
-      },
-      "effects": [
-        "Furious Recovery"
+    "effects": [
+      "Defender's Resillience"
+    ]
+  },
+  {
+    "id": 5,
+    "type": "Melee",
+    "name": "Scavenger's Daggers",
+    "level": 1,
+    "count": null,
+    "cost": 500,
+    "goldToUpgrade": 175,
+    "moveDamage": {
+      "0": [
+        13,
+        139
+      ],
+      "1": [
+        7,
+        74
+      ],
+      "2": [
+        11,
+        110
       ]
     },
-    {
-      "id": "006",
-      "type": "Melee",
-      "name": "Goblin's Club",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 20,
-      "moveDamage": {
-        "0": [
-          9,
-          81
-        ],
-        "1": [
-          9,
-          81
-        ],
-        "2": [
-          9,
-          81
-        ]
-      },
-      "effects": [
-        
+    "effects": [
+      "Furious Recovery"
+    ]
+  },
+  {
+    "id": 6,
+    "type": "Melee",
+    "name": "Goblin's Club",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 65,
+    "moveDamage": {
+      "0": [
+        8,
+        80
+      ],
+      "1": [
+        8,
+        80
+      ],
+      "2": [
+        8,
+        80
       ]
     },
-    {
-      "id": "007",
-      "type": "Melee",
-      "name": "Wolf's Fangs",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 20,
-      "moveDamage": {
-        "0": [
-          11,
-          108
-        ],
-        "1": [
-          11,
-          108
-        ],
-        "2": [
-          5,
-          48
-        ]
-      },
-      "effects": [
-        
+    "effects": [
+      
+    ],
+    "tier": 1
+  },
+  {
+    "id": 7,
+    "type": "Melee",
+    "name": "Wolf's Fangs",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 65,
+    "moveDamage": {
+      "0": [
+        10,
+        107
+      ],
+      "1": [
+        10,
+        107
+      ],
+      "2": [
+        4,
+        47
       ]
     },
-    {
-      "id": "008",
-      "type": "Melee",
-      "name": "Vampire Bat's Fangs",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 20,
-      "moveDamage": {
-        "0": [
-          7,
-          69
-        ],
-        "1": [
-          10,
-          99
-        ],
-        "2": [
-          13,
-          129
-        ]
-      },
-      "effects": [
-        "Blood Sucker"
+    "effects": [
+      
+    ],
+    "tier": 1
+  },
+  {
+    "id": 8,
+    "type": "Melee",
+    "name": "Vampire Bat's Fangs",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 65,
+    "moveDamage": {
+      "0": [
+        6,
+        64
+      ],
+      "1": [
+        9,
+        92
+      ],
+      "2": [
+        12,
+        120
       ]
     },
-    {
-      "id": "009",
-      "type": "Ranged",
-      "name": "Phantasmic Essence",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 75,
-      "moveDamage": {
-        "0": [
-          5,
-          47
-        ],
-        "1": [
-          8,
-          80
-        ],
-        "2": [
-          16,
-          159
-        ]
-      },
-      "effects": [
-        "Fizzle"
+    "effects": [
+      "Blood Sucker"
+    ],
+    "tier": 1
+  },
+  {
+    "id": 9,
+    "type": "Ranged",
+    "name": "Phantasmic Essence",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 65,
+    "moveDamage": {
+      "0": [
+        4,
+        44
+      ],
+      "1": [
+        7,
+        78
+      ],
+      "2": [
+        15,
+        156
       ]
     },
-    {
-      "id": "010",
-      "type": "Melee",
-      "name": "Dragon's Claws",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 80,
-      "moveDamage": {
-        "0": [
-          8,
-          78
-        ],
-        "1": [
-          16,
-          153
-        ],
-        "2": [
-          14,
-          138
-        ]
-      },
-      "effects": [
-        "Flamebreath Retreat"
+    "effects": [
+      "Fizzle"
+    ],
+    "tier": 1
+  },
+  {
+    "id": 10,
+    "type": "Melee",
+    "name": "Dragon's Claws",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 130,
+    "moveDamage": {
+      "0": [
+        7,
+        70
+      ],
+      "1": [
+        13,
+        137
+      ],
+      "2": [
+        12,
+        123
       ]
     },
-    {
-      "id": "011",
-      "type": "Ranged",
-      "name": "Hexed Bow",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 40,
-      "moveDamage": {
-        "0": [
-          3,
-          30
-        ],
-        "1": [
-          17,
-          165
-        ],
-        "2": [
-          3,
-          30
-        ]
-      },
-      "effects": [
-        "Vengeful Arrow"
+    "effects": [
+      "Flamebreath Retreat"
+    ],
+    "tier": 2
+  },
+  {
+    "id": 11,
+    "type": "Ranged",
+    "name": "Hexed Bow",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 65,
+    "moveDamage": {
+      "0": [
+        2,
+        29
+      ],
+      "1": [
+        16,
+        163
+      ],
+      "2": [
+        2,
+        29
       ]
     },
-    {
-      "id": "012",
-      "type": "Melee",
-      "name": "Mountain's Fist",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 40,
-      "moveDamage": {
-        "0": [
-          2,
-          15
-        ],
-        "1": [
-          6,
-          57
-        ],
-        "2": [
-          20,
-          195
-        ]
-      },
-      "effects": [
-        
+    "effects": [
+      "Vengeful Arrow"
+    ],
+    "tier": 1
+  },
+  {
+    "id": 12,
+    "type": "Melee",
+    "name": "Mountain's Fist",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 130,
+    "moveDamage": {
+      "0": [
+        1,
+        15
+      ],
+      "1": [
+        5,
+        56
+      ],
+      "2": [
+        19,
+        195
       ]
     },
-    {
-      "id": "013",
-      "type": "Ranged",
-      "name": "Banished Scepter",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 50,
-      "moveDamage": {
-        "0": [
-          14,
-          135
-        ],
-        "1": [
-          14,
-          135
-        ],
-        "2": [
-          14,
-          135
-        ]
-      },
-      "effects": [
-        "Negation Aura"
+    "effects": [
+      
+    ],
+    "tier": 2
+  },
+  {
+    "id": 13,
+    "type": "Ranged",
+    "name": "Banished Scepter",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 130,
+    "moveDamage": {
+      "0": [
+        11,
+        110
+      ],
+      "1": [
+        11,
+        110
+      ],
+      "2": [
+        11,
+        110
       ]
     },
-    {
-      "id": "014",
-      "type": "Melee",
-      "name": "Battle Axe",
-      "level": 1,
-      "count": 1,
-      "cost": 200,
-      "goldToUpgrade": 70,
-      "moveDamage": {
-        "0": [
-          15,
-          149
-        ],
-        "1": [
-          16,
-          155
-        ],
-        "2": [
-          13,
-          129
-        ]
-      },
-      "effects": [
-        
+    "effects": [
+      "Negation Aura"
+    ],
+    "tier": 2
+  },
+  {
+    "id": 14,
+    "type": "Melee",
+    "name": "Battle Axe",
+    "level": 1,
+    "count": null,
+    "cost": 500,
+    "goldToUpgrade": 175,
+    "moveDamage": {
+      "0": [
+        13,
+        133
+      ],
+      "1": [
+        14,
+        141
+      ],
+      "2": [
+        11,
+        117
       ]
     },
-    {
-      "id": "015",
-      "type": "Melee",
-      "name": "Wooden Polearm",
-      "level": 1,
-      "count": 1,
-      "cost": 200,
-      "goldToUpgrade": 55,
-      "moveDamage": {
-        "0": [
-          11,
-          105
-        ],
-        "1": [
-          11,
-          105
-        ],
-        "2": [
-          11,
-          105
-        ]
-      },
-      "effects": [
-        "Violent Momentum"
+    "effects": [
+      
+    ]
+  },
+  {
+    "id": 15,
+    "type": "Melee",
+    "name": "Wooden Polearm",
+    "level": 1,
+    "count": null,
+    "cost": 500,
+    "goldToUpgrade": 175,
+    "moveDamage": {
+      "0": [
+        9,
+        95
+      ],
+      "1": [
+        9,
+        95
+      ],
+      "2": [
+        9,
+        95
       ]
     },
-    {
-      "id": "016",
-      "type": "Ranged",
-      "name": "Elemental Spellbook",
-      "level": 1,
-      "count": 1,
-      "cost": 225,
-      "goldToUpgrade": 60,
-      "moveDamage": {
-        "0": [
-          12,
-          111
-        ],
-        "1": [
-          15,
-          143
-        ],
-        "2": [
-          3,
-          23
-        ]
-      },
-      "effects": [
-        "Light Barrier"
+    "effects": [
+      "Violent Momentum"
+    ]
+  },
+  {
+    "id": 16,
+    "type": "Ranged",
+    "name": "Elemental Spellbook",
+    "level": 1,
+    "count": null,
+    "cost": 500,
+    "goldToUpgrade": 175,
+    "moveDamage": {
+      "0": [
+        10,
+        100
+      ],
+      "1": [
+        13,
+        131
+      ],
+      "2": [
+        2,
+        20
       ]
     },
-    {
-      "id": "017",
-      "type": "Melee",
-      "name": "Barbed Chains",
-      "level": 1,
-      "count": 1,
-      "cost": 200,
-      "goldToUpgrade": 90,
-      "moveDamage": {
-        "0": [
-          14,
-          131
-        ],
-        "1": [
-          12,
-          119
-        ],
-        "2": [
-          15,
-          150
-        ]
-      },
-      "effects": [
-        "Constricting Grapple"
+    "effects": [
+      "Light Barrier"
+    ]
+  },
+  {
+    "id": 17,
+    "type": "Melee",
+    "name": "Barbed Chains",
+    "level": 1,
+    "count": null,
+    "cost": 500,
+    "goldToUpgrade": 175,
+    "moveDamage": {
+      "0": [
+        12,
+        120
+      ],
+      "1": [
+        10,
+        109
+      ],
+      "2": [
+        13,
+        138
       ]
     },
-    {
-      "id": "018",
-      "type": "Melee",
-      "name": "Giga Hammer",
-      "level": 1,
-      "count": 1,
-      "cost": 525,
-      "goldToUpgrade": 100,
-      "moveDamage": {
-        "0": [
-          9,
-          90
-        ],
-        "1": [
-          19,
-          188
-        ],
-        "2": [
-          20,
-          195
-        ]
-      },
-      "effects": [
-        
+    "effects": [
+      "Constricting Grapple"
+    ]
+  },
+  {
+    "id": 18,
+    "type": "Melee",
+    "name": "Giga Hammer",
+    "level": 1,
+    "count": null,
+    "cost": 500,
+    "goldToUpgrade": 175,
+    "moveDamage": {
+      "0": [
+        8,
+        83
+      ],
+      "1": [
+        17,
+        176
+      ],
+      "2": [
+        18,
+        180
       ]
     },
-    {
-      "id": "019",
-      "type": "Melee",
-      "name": "Storm's Fury",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 110,
-      "moveDamage": {
-        "0": [
-          15,
-          143
-        ],
-        "1": [
-          6,
-          54
-        ],
-        "2": [
-          10,
-          92
-        ]
-      },
-      "effects": [
-        "Furious Gust"
+    "effects": [
+      
+    ]
+  },
+  {
+    "id": 19,
+    "type": "Melee",
+    "name": "Storm's Fury",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 130,
+    "moveDamage": {
+      "0": [
+        14,
+        141
+      ],
+      "1": [
+        5,
+        54
+      ],
+      "2": [
+        9,
+        92
       ]
     },
-    {
-      "id": "020",
-      "type": "Melee",
-      "name": "Solar Talons",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 70,
-      "moveDamage": {
-        "0": [
-          13,
-          122
-        ],
-        "1": [
-          12,
-          113
-        ],
-        "2": [
-          13,
-          123
-        ]
-      },
-      "effects": [
-        "Radiance"
+    "effects": [
+      "Furious Gust"
+    ],
+    "tier": 2
+  },
+  {
+    "id": 20,
+    "type": "Melee",
+    "name": "Solar Talons",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 130,
+    "moveDamage": {
+      "0": [
+        11,
+        113
+      ],
+      "1": [
+        10,
+        107
+      ],
+      "2": [
+        11,
+        113
       ]
     },
-    {
-      "id": "021",
-      "type": "Melee",
-      "name": "The Eclipse",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 70,
-      "moveDamage": {
-        "0": [
-          12,
-          120
-        ],
-        "1": [
-          17,
-          162
-        ],
-        "2": [
-          7,
-          65
-        ]
-      },
-      "effects": [
-        "Night Edge"
+    "effects": [
+      "Radiance"
+    ],
+    "tier": 2
+  },
+  {
+    "id": 21,
+    "type": "Melee",
+    "name": "The Eclipse",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 130,
+    "moveDamage": {
+      "0": [
+        11,
+        117
+      ],
+      "1": [
+        15,
+        157
+      ],
+      "2": [
+        6,
+        63
       ]
     },
-    {
-      "id": "022",
-      "type": "Melee",
-      "name": "Twin Cutlasses",
-      "level": 1,
-      "count": 1,
-      "cost": 200,
-      "goldToUpgrade": 85,
-      "moveDamage": {
-        "0": [
-          16,
-          159
-        ],
-        "1": [
-          12,
-          120
-        ],
-        "2": [
-          8,
-          77
-        ]
-      },
-      "effects": [
-        "Fatal Flurry"
+    "effects": [
+      "Night Edge"
+    ],
+    "tier": 2
+  },
+  {
+    "id": 22,
+    "type": "Melee",
+    "name": "Twin Cutlasses",
+    "level": 1,
+    "count": null,
+    "cost": 500,
+    "goldToUpgrade": 175,
+    "moveDamage": {
+      "0": [
+        14,
+        145
+      ],
+      "1": [
+        11,
+        110
+      ],
+      "2": [
+        7,
+        71
       ]
     },
-    {
-      "id": "023",
-      "type": "Melee",
-      "name": "Steampunk Gunblade",
-      "level": 1,
-      "count": 1,
-      "cost": 275,
-      "goldToUpgrade": 100,
-      "moveDamage": {
-        "0": [
-          14,
-          135
-        ],
-        "1": [
-          17,
-          165
-        ],
-        "2": [
-          12,
-          117
-        ]
-      },
-      "effects": [
-        "Modular Strike",
-        "Forceful Shot"
+    "effects": [
+      "Fatal Flurry"
+    ]
+  },
+  {
+    "id": 23,
+    "type": "Melee",
+    "name": "Steampunk Gunblade",
+    "level": 1,
+    "count": null,
+    "cost": 500,
+    "goldToUpgrade": 175,
+    "moveDamage": {
+      "0": [
+        12,
+        121
+      ],
+      "1": [
+        15,
+        152
+      ],
+      "2": [
+        10,
+        106
       ]
     },
-    {
-      "id": "024",
-      "type": "Ranged",
-      "name": "Storm Guardian's Scepter",
-      "level": 1,
-      "count": 1,
-      "cost": 225,
-      "goldToUpgrade": 90,
-      "moveDamage": {
-        "0": [
-          12,
-          113
-        ],
-        "1": [
-          5,
-          45
-        ],
-        "2": [
-          17,
-          162
-        ]
-      },
-      "effects": [
-        "Surge",
-        "Strike of Zeus"
+    "effects": [
+      "Modular Strike",
+      "Forceful Shot"
+    ]
+  },
+  {
+    "id": 24,
+    "type": "Ranged",
+    "name": "Storm Guardian's Scepter",
+    "level": 1,
+    "count": null,
+    "cost": 500,
+    "goldToUpgrade": 175,
+    "moveDamage": {
+      "0": [
+        10,
+        102
+      ],
+      "1": [
+        4,
+        40
+      ],
+      "2": [
+        14,
+        148
       ]
     },
-    {
-      "id": "025",
-      "type": "Melee",
-      "name": "Beta Buster Sword",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 75,
-      "moveDamage": {
-        "0": [
-          13,
-          123
-        ],
-        "1": [
-          13,
-          123
-        ],
-        "2": [
-          13,
-          123
-        ]
-      },
-      "effects": [
-        "Breaker Slash"
+    "effects": [
+      "Surge",
+      "Strike of Zeus"
+    ]
+  },
+  {
+    "id": 25,
+    "type": "Melee",
+    "name": "Beta Buster Sword",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 75,
+    "moveDamage": {
+      "0": [
+        13,
+        123
+      ],
+      "1": [
+        13,
+        123
+      ],
+      "2": [
+        13,
+        123
       ]
     },
-    {
-      "id": "026",
-      "type": "Melee",
-      "name": "Sharpened Katana",
-      "level": 1,
-      "count": 1,
-      "cost": 230,
-      "goldToUpgrade": 80,
-      "moveDamage": {
-        "0": [
-          14,
-          140
-        ],
-        "1": [
-          9,
-          83
-        ],
-        "2": [
-          14,
-          140
-        ]
-      },
-      "effects": [
-        "Final Strike"
+    "effects": [
+      "Breaker Slash"
+    ]
+  },
+  {
+    "id": 26,
+    "type": "Melee",
+    "name": "Sharpened Katana",
+    "level": 1,
+    "count": null,
+    "cost": 500,
+    "goldToUpgrade": 175,
+    "moveDamage": {
+      "0": [
+        12,
+        127
+      ],
+      "1": [
+        7,
+        75
+      ],
+      "2": [
+        12,
+        127
       ]
     },
-    {
-      "id": "027",
-      "type": "Ranged",
-      "name": "Legendary Shurikens",
-      "level": 1,
-      "count": 1,
-      "cost": 210,
-      "goldToUpgrade": 60,
-      "moveDamage": {
-        "0": [
-          12,
-          117
-        ],
-        "1": [
-          16,
-          158
-        ],
-        "2": [
-          12,
-          117
-        ]
-      },
-      "effects": [
-        "Stunning Shuriken",
-        "Sharpened Shuriken"
+    "effects": [
+      "Final Strike"
+    ]
+  },
+  {
+    "id": 27,
+    "type": "Ranged",
+    "name": "Legendary Shurikens",
+    "level": 1,
+    "count": null,
+    "cost": 500,
+    "goldToUpgrade": 175,
+    "moveDamage": {
+      "0": [
+        10,
+        106
+      ],
+      "1": [
+        14,
+        142
+      ],
+      "2": [
+        10,
+        106
       ]
     },
-    {
-      "id": "028",
-      "type": "Ranged",
-      "name": "Citadel Guardian's Crossbow",
-      "level": 1,
-      "count": 1,
-      "cost": 500,
-      "goldToUpgrade": 120,
-      "moveDamage": {
-        "0": [
-          13,
-          128
-        ],
-        "1": [
-          8,
-          75
-        ],
-        "2": [
-          13,
-          128
-        ]
-      },
-      "effects": [
-        "Prepared Attack"
+    "effects": [
+      "Stunning Shuriken",
+      "Sharpened Shuriken"
+    ]
+  },
+  {
+    "id": 28,
+    "type": "Ranged",
+    "name": "Citadel Guardian's Crossbow",
+    "level": 1,
+    "count": null,
+    "cost": 500,
+    "goldToUpgrade": 175,
+    "moveDamage": {
+      "0": [
+        11,
+        117
+      ],
+      "1": [
+        6,
+        69
+      ],
+      "2": [
+        11,
+        117
       ]
     },
-    {
-      "id": "029",
-      "type": "Melee",
-      "name": "Riftwalker's Scythe",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 110,
-      "moveDamage": {
-        "0": [
-          13,
-          128
-        ],
-        "1": [
-          12,
-          120
-        ],
-        "2": [
-          14,
-          135
-        ]
-      },
-      "effects": [
-        
+    "effects": [
+      "Prepared Attack"
+    ]
+  },
+  {
+    "id": 29,
+    "type": "Melee",
+    "name": "Riftwalker's Scythe",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 195,
+    "moveDamage": {
+      "0": [
+        12,
+        126
+      ],
+      "1": [
+        11,
+        118
+      ],
+      "2": [
+        13,
+        133
       ]
     },
-    {
-      "id": "030",
-      "type": "Melee",
-      "name": "Sharpened Cephalothorax",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 90,
-      "moveDamage": {
-        "0": [
-          12,
-          113
-        ],
-        "1": [
-          7,
-          66
-        ],
-        "2": [
-          13,
-          126
-        ]
-      },
-      "effects": [
-        "Spider's Assualt"
+    "effects": [
+      
+    ],
+    "tier": 3
+  },
+  {
+    "id": 30,
+    "type": "Melee",
+    "name": "Sharpened Cephalothorax",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 195,
+    "moveDamage": {
+      "0": [
+        11,
+        112
+      ],
+      "1": [
+        6,
+        66
+      ],
+      "2": [
+        12,
+        124
       ]
     },
-    {
-      "id": "031",
-      "type": "Melee",
-      "name": "Ancient Sword & Shield",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 30,
-      "moveDamage": {
-        "0": [
-          8,
-          75
-        ],
-        "1": [
-          10,
-          98
-        ],
-        "2": [
-          11,
-          105
-        ]
-      },
-      "effects": [
-        "Shield Block"
+    "effects": [
+      "Spider's Assualt"
+    ],
+    "tier": 3
+  },
+  {
+    "id": 31,
+    "type": "Melee",
+    "name": "Ancient Sword & Shield",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 65,
+    "moveDamage": {
+      "0": [
+        7,
+        74
+      ],
+      "1": [
+        9,
+        96
+      ],
+      "2": [
+        10,
+        105
       ]
     },
-    {
-      "id": "032",
-      "type": "Melee",
-      "name": "Lunar Salvation",
-      "level": 1,
-      "count": 1,
-      "moveDamage": {
-        "0": [
-          21,
-          205
-        ],
-        "1": [
-          25,
-          245
-        ],
-        "2": [
-          23,
-          230
-        ]
-      },
-      "effects": [
-        "Twilight Resurgence",
-        "Moonlight Resonance"
+    "effects": [
+      "Shield Block"
+    ],
+    "tier": 1
+  },
+  {
+    "id": 32,
+    "type": "Melee",
+    "name": "Lunar Salvation",
+    "level": 1,
+    "count": null,
+    "moveDamage": {
+      "0": [
+        21,
+        205
+      ],
+      "1": [
+        25,
+        245
+      ],
+      "2": [
+        23,
+        230
       ]
     },
-    {
-      "id": "033",
-      "type": "Melee",
-      "name": "Bloodthirster's Fangs",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 130,
-      "moveDamage": {
-        "0": [
-          11,
-          102
-        ],
-        "1": [
-          11,
-          102
-        ],
-        "2": [
-          14,
-          132
-        ]
-      },
-      "effects": [
-        "Sharpened Fangs",
-        "Devour"
+    "effects": [
+      "Twilight Resurgence",
+      "Moonlight Resonance"
+    ],
+    "boss": true,
+    "goldToUpgrade": 300
+  },
+  {
+    "id": 33,
+    "type": "Melee",
+    "name": "Bloodthirster's Fangs",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 195,
+    "moveDamage": {
+      "0": [
+        10,
+        100
+      ],
+      "1": [
+        10,
+        100
+      ],
+      "2": [
+        13,
+        130
       ]
     },
-    {
-      "id": "034",
-      "type": "Melee",
-      "name": "Searing Skyfangs",
-      "level": 1,
-      "count": 1,
-      "moveDamage": {
-        "0": [
-          15,
-          148
-        ],
-        "1": [
-          15,
-          148
-        ],
-        "2": [
-          15,
-          148
-        ]
-      },
-      "effects": [
-        "Eternal Embers",
-        "Decent of Dawn",
-        "New Dawn"
+    "effects": [
+      "Sharpened Fangs",
+      "Devour"
+    ],
+    "tier": 3
+  },
+  {
+    "id": 34,
+    "type": "Melee",
+    "name": "Searing Skyfangs",
+    "level": 1,
+    "count": null,
+    "moveDamage": {
+      "0": [
+        15,
+        148
+      ],
+      "1": [
+        15,
+        148
+      ],
+      "2": [
+        15,
+        148
       ]
     },
-    {
-      "id": "035",
-      "type": "Melee",
-      "name": "World's End",
-      "level": 1,
-      "count": 1,
-      "moveDamage": {
-        "0": [
-          27,
-          265
-        ],
-        "1": [
-          27,
-          265
-        ],
-        "2": [
-          27,
-          265
-        ]
-      },
-      "effects": [
-        "Reap Life"
+    "effects": [
+      "Eternal Embers",
+      "Decent of Dawn",
+      "New Dawn"
+    ],
+    "boss": true,
+    "goldToUpgrade": 300
+  },
+  {
+    "id": 35,
+    "type": "Melee",
+    "name": "World's End",
+    "level": 1,
+    "count": null,
+    "moveDamage": {
+      "0": [
+        27,
+        265
+      ],
+      "1": [
+        27,
+        265
+      ],
+      "2": [
+        27,
+        265
       ]
     },
-    {
-      "id": "036",
-      "type": "Melee",
-      "name": "Stolen Aurorean War Hammer",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 130,
-      "moveDamage": {
-        "0": [
-          9,
-          84
-        ],
-        "1": [
-          11,
-          105
-        ],
-        "2": [
-          20,
-          195
-        ]
-      },
-      "effects": [
-        "Battering Blows"
+    "effects": [
+      "Reap Life"
+    ],
+    "boss": true,
+    "goldToUpgrade": 300
+  },
+  {
+    "id": 36,
+    "type": "Melee",
+    "name": "Stolen Aurorean War Hammer",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 195,
+    "moveDamage": {
+      "0": [
+        8,
+        84
+      ],
+      "1": [
+        10,
+        103
+      ],
+      "2": [
+        19,
+        194
       ]
     },
-    {
-      "id": "037",
-      "type": "Ranged",
-      "name": "BloodWood Bow",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 130,
-      "moveDamage": {
-        "0": [
-          9,
-          90
-        ],
-        "1": [
-          50,
-          495
-        ],
-        "2": [
-          12,
-          119
-        ]
-      },
-      "effects": [
-        "Cursed Shot"
+    "effects": [
+      "Battering Blows"
+    ],
+    "tier": 3
+  },
+  {
+    "id": 37,
+    "type": "Ranged",
+    "name": "BloodWood Bow",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 195,
+    "moveDamage": {
+      "0": [
+        5,
+        50
+      ],
+      "1": [
+        27,
+        273
+      ],
+      "2": [
+        6,
+        66
       ]
     },
-    {
-      "id": "038",
-      "type": "Ranged",
-      "name": "Gatekeeper's Scepter",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 130,
-      "moveDamage": {
-        "0": [
-          12,
-          120
-        ],
-        "1": [
-          0,
-          0
-        ],
-        "2": [
-          20,
-          195
-        ]
-      },
-      "effects": [
-        "Banish"
+    "effects": [
+      "Cursed Shot"
+    ],
+    "tier": 3
+  },
+  {
+    "id": 38,
+    "type": "Ranged",
+    "name": "Gatekeeper's Scepter",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 195,
+    "moveDamage": {
+      "0": [
+        11,
+        119
+      ],
+      "1": [
+        0,
+        0
+      ],
+      "2": [
+        19,
+        195
       ]
     },
-    {
-      "id": "039",
-      "type": "Ranged",
-      "name": "Magi-Tech Hand Cannon Prototype",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 160,
-      "moveDamage": {
-        "0": [
-          21,
-          203
-        ],
-        "1": [
-          21,
-          203
-        ],
-        "2": [
-          21,
-          203
-        ]
-      },
-      "effects": [
-        "Malfunction"
+    "effects": [
+      "Banish"
+    ],
+    "tier": 3
+  },
+  {
+    "id": 39,
+    "type": "Ranged",
+    "name": "Magi-Tech Hand Cannon Prototype",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 260,
+    "moveDamage": {
+      "0": [
+        14,
+        146
+      ],
+      "1": [
+        14,
+        146
+      ],
+      "2": [
+        14,
+        146
       ]
     },
-    {
-      "id": "040",
-      "type": "Melee",
-      "name": "Bloody Mary",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 160,
-      "moveDamage": {
-        "0": [
-          17,
-          165
-        ],
-        "1": [
-          13,
-          128
-        ],
-        "2": [
-          8,
-          75
-        ]
-      },
-      "effects": [
-        "Last Kiss",
-        "Alure"
+    "effects": [
+      "Malfunction"
+    ],
+    "tier": 4
+  },
+  {
+    "id": 40,
+    "type": "Melee",
+    "name": "Bloody Mary",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 260,
+    "moveDamage": {
+      "0": [
+        16,
+        166
+      ],
+      "1": [
+        12,
+        129
+      ],
+      "2": [
+        7,
+        73
       ]
     },
-    {
-      "id": "041",
-      "type": "Melee",
-      "name": "Broken Guilotine",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 160,
-      "moveDamage": {
-        "0": [
-          12,
-          120
-        ],
-        "1": [
-          12,
-          120
-        ],
-        "2": [
-          12,
-          120
-        ]
-      },
-      "effects": [
-        "End Life"
+    "effects": [
+      "Last Kiss",
+      "Alure"
+    ],
+    "tier": 4
+  },
+  {
+    "id": 41,
+    "type": "Melee",
+    "name": "Broken Guilotine",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 260,
+    "moveDamage": {
+      "0": [
+        11,
+        118
+      ],
+      "1": [
+        11,
+        118
+      ],
+      "2": [
+        11,
+        118
       ]
     },
-    {
-      "id": "042",
-      "type": "Melee",
-      "name": "Whethered Stinger",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 160,
-      "moveDamage": {
-        "0": [
-          17,
-          165
-        ],
-        "1": [
-          17,
-          165
-        ],
-        "2": [
-          17,
-          165
-        ]
-      },
-      "effects": [
-        "Element of Surprise"
+    "effects": [
+      "End Life"
+    ],
+    "tier": 4
+  },
+  {
+    "id": 42,
+    "type": "Melee",
+    "name": "Whethered Stinger",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 260,
+    "moveDamage": {
+      "0": [
+        14,
+        146
+      ],
+      "1": [
+        14,
+        146
+      ],
+      "2": [
+        14,
+        146
       ]
     },
-    {
-      "id": "043",
-      "type": "Melee",
-      "name": "Blade of the Breeze",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 160,
-      "moveDamage": {
-        "0": [
-          3,
-          30
-        ],
-        "1": [
-          3,
-          30
-        ],
-        "2": [
-          0,
-          0
-        ]
-      },
-      "effects": [
-        "Sharp Wind",
-        "Premeditated End"
+    "effects": [
+      "Element of Surprise"
+    ],
+    "tier": 4
+  },
+  {
+    "id": 43,
+    "type": "Melee",
+    "name": "Blade of the Breeze",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 260,
+    "moveDamage": {
+      "0": [
+        2,
+        28
+      ],
+      "1": [
+        2,
+        28
+      ],
+      "2": [
+        0,
+        0
       ]
     },
-    {
-      "id": "044",
-      "type": "Melee",
-      "name": "Blade of the Molten Core",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 160,
-      "moveDamage": {
-        "0": [
-          15,
-          150
-        ],
-        "1": [
-          18,
-          180
-        ],
-        "2": [
-          20,
-          195
-        ]
-      },
-      "effects": [
-        "Wrecker Blade",
-        "Heated Blade"
+    "effects": [
+      "Sharp Wind",
+      "Premeditated End"
+    ],
+    "tier": 4
+  },
+  {
+    "id": 44,
+    "type": "Melee",
+    "name": "Blade of the Molten Core",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 260,
+    "moveDamage": {
+      "0": [
+        12,
+        129
+      ],
+      "1": [
+        15,
+        151
+      ],
+      "2": [
+        16,
+        164
       ]
     },
-    {
-      "id": "045",
-      "type": "Melee",
-      "name": "Ocean's Pull",
-      "level": 1,
-      "count": 1,
-      "moveDamage": {
-        "0": [
-          12,
-          115
-        ],
-        "1": [
-          12,
-          115
-        ],
-        "2": [
-          12,
-          115
-        ]
-      },
-      "effects": [
-        "Swallow",
-        "Oceanic Pressure",
-        "Submerge"
+    "effects": [
+      "Wrecker Blade",
+      "Heated Blade"
+    ],
+    "tier": 4
+  },
+  {
+    "id": 45,
+    "type": "Melee",
+    "name": "Ocean's Pull",
+    "level": 1,
+    "count": null,
+    "moveDamage": {
+      "0": [
+        12,
+        115
+      ],
+      "1": [
+        12,
+        115
+      ],
+      "2": [
+        12,
+        115
       ]
     },
-    {
-      "id": "046",
-      "type": "Melee",
-      "name": "Spear of the Three Nations",
-      "level": 1,
-      "count": 1,
-      "cost": 250,
-      "goldToUpgrade": 80,
-      "moveDamage": {
-        "0": [
-          13,
-          128
-        ],
-        "1": [
-          45,
-          450
-        ],
-        "2": [
-          13,
-          128
-        ]
-      },
-      "effects": [
-        "Gambit Throw"
+    "effects": [
+      "Swallow",
+      "Oceanic Pressure",
+      "Submerge"
+    ],
+    "boss": true,
+    "goldToUpgrade": 300
+  },
+  {
+    "id": 46,
+    "type": "Melee",
+    "name": "Spear of the Three Nations",
+    "level": 1,
+    "count": null,
+    "cost": 500,
+    "goldToUpgrade": 175,
+    "moveDamage": {
+      "0": [
+        7,
+        79
+      ],
+      "1": [
+        28,
+        281
+      ],
+      "2": [
+        7,
+        79
       ]
     },
-    {
-      "id": "047",
-      "type": "Ranged",
-      "name": "Jester's Cards",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 90,
-      "moveDamage": {
-        "0": [
-          12,
-          120
-        ],
-        "1": [
-          12,
-          120
-        ],
-        "2": [
-          12,
-          120
-        ]
-      },
-      "effects": [
-        "Lucky Card",
-        "Unlucky Card"
+    "effects": [
+      "Gambit Throw"
+    ]
+  },
+  {
+    "id": 47,
+    "type": "Ranged",
+    "name": "Jester's Cards",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 325,
+    "moveDamage": {
+      "0": [
+        11,
+        118
+      ],
+      "1": [
+        11,
+        118
+      ],
+      "2": [
+        11,
+        118
       ]
     },
-    {
-      "id": "048",
-      "type": "Melee",
-      "name": "Acidic Maw",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 110,
-      "moveDamage": {
-        "0": [
-          13,
-          125
-        ],
-        "1": [
-          14,
-          140
-        ],
-        "2": [
-          10,
-          100
-        ]
-      },
-      "effects": [
-        "Corrode",
-        "Acidic Belch"
+    "effects": [
+      "Lucky Card",
+      "Unlucky Card"
+    ],
+    "tier": 5
+  },
+  {
+    "id": 48,
+    "type": "Melee",
+    "name": "Acidic Maw",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 325,
+    "moveDamage": {
+      "0": [
+        12,
+        124
+      ],
+      "1": [
+        13,
+        138
+      ],
+      "2": [
+        9,
+        98
       ]
     },
-    {
-      "id": "049",
-      "type": "Melee",
-      "name": "Heat Wave Cloak",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 105,
-      "moveDamage": {
-        "0": [
-          15,
-          145
-        ],
-        "1": [
-          11,
-          110
-        ],
-        "2": [
-          9,
-          90
-        ]
-      },
-      "effects": [
-        "Eveloping Sunshine"
+    "effects": [
+      "Corrode",
+      "Acidic Belch"
+    ],
+    "tier": 5
+  },
+  {
+    "id": 49,
+    "type": "Melee",
+    "name": "Heat Wave Cloak",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 325,
+    "moveDamage": {
+      "0": [
+        14,
+        144
+      ],
+      "1": [
+        11,
+        110
+      ],
+      "2": [
+        8,
+        89
       ]
     },
-    {
-      "id": "050",
-      "type": "Melee",
-      "name": "Titanium Fangs",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 105,
-      "moveDamage": {
-        "0": [
-          13,
-          130
-        ],
-        "1": [
-          16,
-          160
-        ],
-        "2": [
-          10,
-          100
-        ]
-      },
-      "effects": [
-        "From Beneath"
+    "effects": [
+      "Eveloping Sunshine"
+    ],
+    "tier": 5
+  },
+  {
+    "id": 50,
+    "type": "Melee",
+    "name": "Titanium Fangs",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 325,
+    "moveDamage": {
+      "0": [
+        12,
+        128
+      ],
+      "1": [
+        15,
+        159
+      ],
+      "2": [
+        10,
+        101
       ]
     },
-    {
-      "id": "051",
-      "type": "Melee",
-      "name": "Blood Soaked Axe",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 120,
-      "moveDamage": {
-        "0": [
-          17,
-          165
-        ],
-        "1": [
-          19,
-          190
-        ],
-        "2": [
-          9,
-          90
-        ]
-      },
-      "effects": [
-        
+    "effects": [
+      "From Beneath"
+    ],
+    "tier": 5
+  },
+  {
+    "id": 51,
+    "type": "Melee",
+    "name": "Blood Soaked Axe",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 325,
+    "moveDamage": {
+      "0": [
+        16,
+        164
+      ],
+      "1": [
+        19,
+        191
+      ],
+      "2": [
+        8,
+        89
       ]
     },
-    {
-      "id": "051",
-      "type": "Melee",
-      "name": "Omni-sword",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 200,
-      "moveDamage": {
-        "0": [
-          10,
-          100
-        ],
-        "1": [
-          10,
-          100
-        ],
-        "2": [
-          0,
-          0
-        ]
-      },
-      "effects": [
-        "Power Engine",
-        "Over Heat"
+    "effects": [
+      
+    ],
+    "tier": 5
+  },
+  {
+    "id": 69,
+    "type": "Melee",
+    "name": "Omni-sword",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 325,
+    "moveDamage": {
+      "0": [
+        10,
+        100
+      ],
+      "1": [
+        10,
+        100
+      ],
+      "2": [
+        0,
+        0
       ]
     },
-    {
-      "id": "052",
-      "type": "Melee",
-      "name": "Solar Great Bow",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 190,
-      "moveDamage": {
-        "0": [
-          17,
-          170
-        ],
-        "1": [
-          20,
-          200
-        ],
-        "2": [
-          15,
-          150
-        ]
-      },
-      "effects": [
-        "Morning's Fortune"
+    "effects": [
+      "Power Engine",
+      "Over Heat"
+    ],
+    "tier": 5
+  },
+  {
+    "id": 52,
+    "type": "Melee",
+    "name": "Solar Great Bow",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 390,
+    "moveDamage": {
+      "0": [
+        17,
+        171
+      ],
+      "1": [
+        19,
+        197
+      ],
+      "2": [
+        15,
+        151
       ]
     },
-    {
-      "id": "053",
-      "type": "Melee",
-      "name": "Lunar Tonfas",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 190,
-      "moveDamage": {
-        "0": [
-          20,
-          200
-        ],
-        "1": [
-          17,
-          170
-        ],
-        "2": [
-          15,
-          150
-        ]
-      },
-      "effects": [
-        "Dusk's Embrace"
+    "effects": [
+      "Morning's Fortune"
+    ],
+    "tier": 6
+  },
+  {
+    "id": 53,
+    "type": "Melee",
+    "name": "Lunar Tonfas",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 390,
+    "moveDamage": {
+      "0": [
+        19,
+        197
+      ],
+      "1": [
+        17,
+        171
+      ],
+      "2": [
+        15,
+        151
       ]
     },
-    {
-      "id": "054",
-      "type": "Ranged",
-      "name": "Frost Warden's Scepter",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 190,
-      "moveDamage": {
-        "0": [
-          17,
-          170
-        ],
-        "1": [
-          15,
-          150
-        ],
-        "2": [
-          20,
-          200
-        ]
-      },
-      "effects": [
-        "Winter's Curse"
+    "effects": [
+      "Dusk's Embrace"
+    ],
+    "tier": 6
+  },
+  {
+    "id": 54,
+    "type": "Ranged",
+    "name": "Frost Warden's Scepter",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 390,
+    "moveDamage": {
+      "0": [
+        17,
+        171
+      ],
+      "1": [
+        15,
+        151
+      ],
+      "2": [
+        19,
+        197
       ]
     },
-    {
-      "id": "055",
-      "type": "Melee",
-      "name": "Skyflare Whip",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 190,
-      "moveDamage": {
-        "0": [
-          17,
-          170
-        ],
-        "1": [
-          15,
-          150
-        ],
-        "2": [
-          17,
-          170
-        ]
-      },
-      "effects": [
-        "Burning Lashes"
+    "effects": [
+      "Winter's Curse"
+    ],
+    "tier": 6
+  },
+  {
+    "id": 55,
+    "type": "Melee",
+    "name": "Skyflare Whip",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 390,
+    "moveDamage": {
+      "0": [
+        17,
+        170
+      ],
+      "1": [
+        15,
+        151
+      ],
+      "2": [
+        17,
+        170
       ]
     },
-    {
-      "id": "056",
-      "type": "Melee",
-      "name": "Predeator's Fangs",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 210,
-      "moveDamage": {
-        "0": [
-          12,
-          120
-        ],
-        "1": [
-          16,
-          160
-        ],
-        "2": [
-          18,
-          180
-        ]
-      },
-      "effects": [
-        "Predatory Gaze"
+    "effects": [
+      "Burning Lashes"
+    ],
+    "tier": 6
+  },
+  {
+    "id": 56,
+    "type": "Melee",
+    "name": "Predeator's Fangs",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 390,
+    "moveDamage": {
+      "0": [
+        11,
+        119
+      ],
+      "1": [
+        16,
+        161
+      ],
+      "2": [
+        17,
+        179
       ]
     },
-    {
-      "id": "057",
-      "type": "Melee",
-      "name": "Magi-Tech Modifications",
-      "level": 1,
-      "count": 1,
-      "goldToUpgrade": 300,
-      "moveDamage": {
-        "0": [
-          23,
-          225
-        ],
-        "1": [
-          23,
-          225
-        ],
-        "2": [
-          23,
-          225
-        ]
-      },
-      "effects": [
-        "Regenerating Life Force"
+    "effects": [
+      "Predatory Gaze"
+    ],
+    "tier": 6
+  },
+  {
+    "id": 57,
+    "type": "Melee",
+    "name": "Magi-Tech Modifications",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 390,
+    "moveDamage": {
+      "0": [
+        18,
+        183
+      ],
+      "1": [
+        18,
+        183
+      ],
+      "2": [
+        18,
+        183
       ]
     },
-    {
-      "id": "058",
-      "type": "Melee",
-      "name": "Mountain Ranger's Great Sword",
-      "level": 1,
-      "count": 1,
-      "cost": 550,
-      "goldToUpgrade": 350,
-      "moveDamage": {
-        "0": [
-          14,
-          140
-        ],
-        "1": [
-          23,
-          225
-        ],
-        "2": [
-          12,
-          120
-        ]
-      },
-      "effects": [
-        "Heavy Blade"
+    "effects": [
+      "Regenerating Life Force"
+    ],
+    "tier": 6
+  },
+  {
+    "id": 58,
+    "type": "Melee",
+    "name": "Mountain Ranger's Great Sword",
+    "level": 1,
+    "count": null,
+    "cost": 500,
+    "goldToUpgrade": 175,
+    "moveDamage": {
+      "0": [
+        12,
+        127
+      ],
+      "1": [
+        20,
+        202
+      ],
+      "2": [
+        11,
+        110
       ]
     },
-    {
-      "id": "059",
-      "type": "Melee",
-      "name": "Forgeman's Dual Hammers",
-      "level": 1,
-      "count": 1,
-      "cost": 400,
-      "goldToUpgrade": 275,
-      "moveDamage": {
-        "0": [
-          2,
-          20
-        ],
-        "1": [
-          3,
-          25
-        ],
-        "2": [
-          4,
-          40
-        ]
-      },
-      "effects": [
-        "Shattering Blows"
+    "effects": [
+      "Heavy Blade"
+    ]
+  },
+  {
+    "id": 59,
+    "type": "Melee",
+    "name": "Forgeman's Dual Hammers",
+    "level": 1,
+    "count": null,
+    "cost": 500,
+    "goldToUpgrade": 175,
+    "moveDamage": {
+      "0": [
+        1,
+        18
+      ],
+      "1": [
+        2,
+        22
+      ],
+      "2": [
+        3,
+        35
       ]
     },
-    {
-      "id": "060",
-      "type": "Melee",
-      "name": "Paladin's Long Sword",
-      "level": 1,
-      "count": 1,
-      "cost": 600,
-      "goldToUpgrade": 325,
-      "moveDamage": {
-        "0": [
-          8,
-          75
-        ],
-        "1": [
-          18,
-          180
-        ],
-        "2": [
-          20,
-          200
-        ]
-      },
-      "effects": [
-        "Mighty Spirit"
+    "effects": [
+      "Shattering Blows"
+    ]
+  },
+  {
+    "id": 60,
+    "type": "Melee",
+    "name": "Paladin's Long Sword",
+    "level": 1,
+    "count": null,
+    "cost": 500,
+    "goldToUpgrade": 175,
+    "moveDamage": {
+      "0": [
+        6,
+        64
+      ],
+      "1": [
+        16,
+        160
+      ],
+      "2": [
+        17,
+        176
       ]
     },
-    {
-      "id": "061",
-      "type": "Ranged",
-      "name": "Refurbished Blade Cannon",
-      "level": 1,
-      "count": 1,
-      "cost": 450,
-      "goldToUpgrade": 275,
-      "moveDamage": {
-        "0": [
-          5,
-          45
-        ],
-        "1": [
-          1,
-          10
-        ],
-        "2": [
-          20,
-          150
-        ]
-      },
-      "effects": [
-        "Blade Burst","Full Payload"
+    "effects": [
+      "Mighty Spirit"
+    ]
+  },
+  {
+    "id": 61,
+    "type": "Ranged",
+    "name": "Refurbished Blade Cannon",
+    "level": 1,
+    "count": null,
+    "cost": 500,
+    "goldToUpgrade": 175,
+    "moveDamage": {
+      "0": [
+        4,
+        41
+      ],
+      "1": [
+        0,
+        9
+      ],
+      "2": [
+        13,
+        137
       ]
     },
-    {
-      "id": "062",
-      "type": "Melee",
-      "name": "Blade of Corrupted Souls",
-      "level": 1,
-      "count": 1,
-      "moveDamage": {
-        "0": [
-          12,
-          185
-        ],
-        "1": [
-          12,
-          215
-        ],
-        "2": [
-          0,
-          0
-        ]
-      },
-      "effects": [
-        "Adaptive Counter",
-        "Havoc Swing",
-        "Purge of Nature"
+    "effects": [
+      "Blade Burst",
+      "Full Payload"
+    ]
+  },
+  {
+    "id": 62,
+    "type": "Melee",
+    "name": "Blade of Corrupted Souls",
+    "level": 1,
+    "count": null,
+    "moveDamage": {
+      "0": [
+        12,
+        185
+      ],
+      "1": [
+        12,
+        215
+      ],
+      "2": [
+        0,
+        0
       ]
     },
-    {
-      "id": "063",
-      "type": "Melee",
-      "name": "Deserter's Halberd",
-      "level": 1,
-      "count": 1,
-      "cost": 400,
-      "goldToUpgrade": 360,
-      "moveDamage": {
-        "0": [
-          6,
-          65
-        ],
-        "1": [
-          20,
-          200
-        ],
-        "2": [
-          16,
-          165
-        ]
-      },
-      "effects": [
-        "Sweeping Strikes",
-        "Swift Stab"
+    "effects": [
+      "Adaptive Counter",
+      "Havoc Swing",
+      "Purge of Nature"
+    ],
+    "boss": true,
+    "goldToUpgrade": 300
+  },
+  {
+    "id": 63,
+    "type": "Melee",
+    "name": "Deserter's Halberd",
+    "level": 1,
+    "count": null,
+    "cost": 500,
+    "goldToUpgrade": 175,
+    "moveDamage": {
+      "0": [
+        5,
+        58
+      ],
+      "1": [
+        18,
+        184
+      ],
+      "2": [
+        14,
+        148
       ]
-    }
-  ]
-}
+    },
+    "effects": [
+      "Sweeping Strikes",
+      "Swift Stab"
+    ]
+  },
+  {
+    "id": 64,
+    "type": "Melee",
+    "name": "Dual Edged Polearm",
+    "level": 1,
+    "count": null,
+    "cost": 500,
+    "goldToUpgrade": 175,
+    "moveDamage": {
+      "0": [
+        14,
+        140
+      ],
+      "1": [
+        19,
+        198
+      ],
+      "2": [
+        10,
+        101
+      ]
+    },
+    "effects": [
+      "Unstoppable Spiral"
+    ]
+  },
+  {
+    "id": 82,
+    "type": "Melee",
+    "name": "Stolen Magi-Tech Crossbow",
+    "level": 1,
+    "count": null,
+    "cost": 500,
+    "goldToUpgrade": 175,
+    "moveDamage": {
+      "0": [
+        0,
+        0
+      ],
+      "1": [
+        9,
+        90
+      ],
+      "2": [
+        13,
+        136
+      ]
+    },
+    "effects": [
+      "Charged Arrow"
+    ]
+  },
+  {
+    "id": 65,
+    "type": "Melee",
+    "name": "Axis Cannon Prototype",
+    "level": 1,
+    "count": null,
+    "cost": 500,
+    "goldToUpgrade": 175,
+    "moveDamage": {
+      "0": [
+        0,
+        0
+      ],
+      "1": [
+        22,
+        227
+      ],
+      "2": [
+        11,
+        112
+      ]
+    },
+    "effects": [
+      "Empty Core",
+      "Energize",
+      "Bewitched Shot"
+    ]
+  },
+  {
+    "id": 66,
+    "type": "Melee",
+    "name": "Bloodstained Mace",
+    "level": 1,
+    "count": null,
+    "cost": 500,
+    "goldToUpgrade": 175,
+    "moveDamage": {
+      "0": [
+        14,
+        145
+      ],
+      "1": [
+        14,
+        145
+      ],
+      "2": [
+        14,
+        145
+      ]
+    },
+    "effects": [
+      
+    ]
+  },
+  {
+    "id": 67,
+    "type": "Ranged",
+    "name": "Forbidden Arcane Knowledge",
+    "level": 1,
+    "count": null,
+    "cost": 500,
+    "goldToUpgrade": 175,
+    "moveDamage": {
+      "0": [
+        0,
+        0
+      ],
+      "1": [
+        0,
+        0
+      ],
+      "2": [
+        23,
+        231
+      ]
+    },
+    "effects": [
+      "Etherial Dismantle",
+      "Plane Shift"
+    ]
+  },
+  {
+    "id": 68,
+    "type": "Ranged",
+    "name": "Tactical Crossbow",
+    "level": 1,
+    "count": null,
+    "cost": 500,
+    "goldToUpgrade": 175,
+    "moveDamage": {
+      "0": [
+        10,
+        107
+      ],
+      "1": [
+        14,
+        144
+      ],
+      "2": [
+        8,
+        80
+      ]
+    },
+    "effects": [
+      "Incapacitator Arrows"
+    ]
+  },
+  {
+    "id": 70,
+    "type": "Melee",
+    "name": "Prisim Caster's Blade",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 300,
+    "moveDamage": {
+      "0": [
+        30,
+        300
+      ],
+      "1": [
+        24,
+        240
+      ],
+      "2": [
+        35,
+        350
+      ]
+    },
+    "effects": [
+      "Impermeable Shine",
+      "Perfect Dazzle"
+    ],
+    "boss": true
+  },
+  {
+    "id": 71,
+    "type": "Melee",
+    "name": "Cursed Branches of Tadmir",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 455,
+    "moveDamage": {
+      "0": [
+        13,
+        130
+      ],
+      "1": [
+        16,
+        160
+      ],
+      "2": [
+        21,
+        210
+      ]
+    },
+    "effects": [
+      "Hexed Growth"
+    ],
+    "tier": 7
+  },
+  {
+    "id": 72,
+    "type": "Melee",
+    "name": "Jakt Fortress Lance",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 455,
+    "moveDamage": {
+      "0": [
+        10,
+        101
+      ],
+      "1": [
+        21,
+        218
+      ],
+      "2": [
+        7,
+        70
+      ]
+    },
+    "effects": [
+      "Detatchable Monster Trap"
+    ],
+    "tier": 7
+  },
+  {
+    "id": 73,
+    "type": "Ranged",
+    "name": "Staff of Frozen Souls",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 455,
+    "moveDamage": {
+      "0": [
+        14,
+        149
+      ],
+      "1": [
+        19,
+        197
+      ],
+      "2": [
+        0,
+        0
+      ]
+    },
+    "effects": [
+      "Soul Silence",
+      "Soul Shatter"
+    ],
+    "tier": 7
+  },
+  {
+    "id": 74,
+    "type": "Ranged",
+    "name": "Poison Coated Claws",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 455,
+    "moveDamage": {
+      "0": [
+        17,
+        179
+      ],
+      "1": [
+        17,
+        179
+      ],
+      "2": [
+        6,
+        68
+      ]
+    },
+    "effects": [
+      "Fatal Infestation"
+    ],
+    "tier": 7
+  },
+  {
+    "id": 75,
+    "type": "Melee",
+    "name": "Immovable Broad Sword",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 455,
+    "moveDamage": {
+      "0": [
+        15,
+        158
+      ],
+      "1": [
+        15,
+        158
+      ],
+      "2": [
+        15,
+        158
+      ]
+    },
+    "effects": [
+      "Plane Split"
+    ],
+    "tier": 7
+  },
+  {
+    "id": 76,
+    "type": "Melee",
+    "name": "Forgotten Combat Arts",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 455,
+    "moveDamage": {
+      "0": [
+        11,
+        118
+      ],
+      "1": [
+        12,
+        129
+      ],
+      "2": [
+        11,
+        111
+      ]
+    },
+    "effects": [
+      "Martial Stance",
+      "Full Strike"
+    ],
+    "tier": 7
+  },
+  {
+    "id": 77,
+    "type": "Melee",
+    "name": "Sharpened Griffin Talons",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 520,
+    "moveDamage": {
+      "0": [
+        14,
+        140
+      ],
+      "1": [
+        17,
+        171
+      ],
+      "2": [
+        14,
+        140
+      ]
+    },
+    "effects": [
+      "Hardened Strikes",
+      "Elevated Assault"
+    ],
+    "tier": 8
+  },
+  {
+    "id": 78,
+    "type": "Melee",
+    "name": "Steampunk Hammer Cannon",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 520,
+    "moveDamage": {
+      "0": [
+        10,
+        100
+      ],
+      "1": [
+        19,
+        191
+      ],
+      "2": [
+        19,
+        191
+      ]
+    },
+    "effects": [
+      "Launching Strike"
+    ],
+    "tier": 8
+  },
+  {
+    "id": 79,
+    "type": "Melee",
+    "name": "Screams of Eternal Torment",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 520,
+    "moveDamage": {
+      "0": [
+        0,
+        0
+      ],
+      "1": [
+        0,
+        0
+      ],
+      "2": [
+        21,
+        212
+      ]
+    },
+    "effects": [
+      "Heart Stoping Howl",
+      "Endless Uproar"
+    ],
+    "tier": 8
+  },
+  {
+    "id": 80,
+    "type": "Melee",
+    "name": "Devestator's Claws",
+    "level": 1,
+    "count": null,
+    "goldToUpgrade": 520,
+    "moveDamage": {
+      "0": [
+        17,
+        177
+      ],
+      "1": [
+        17,
+        177
+      ],
+      "2": [
+        17,
+        177
+      ]
+    },
+    "effects": [
+      "Dark Fire Grasp",
+      "Rift Pulse"
+    ],
+    "tier": 8
+  },
+  {
+    "id": 81,
+    "type": "Melee",
+    "name": "Plumage of Destruction",
+    "level": 1,
+    "count": null,
+    "moveDamage": {
+      "0": [
+        20,
+        198
+      ],
+      "1": [
+        20,
+        198
+      ],
+      "2": [
+        20,
+        198
+      ]
+    },
+    "effects": [
+      "Pollen Storm",
+      "Nature's Plague"
+    ],
+    "boss": true,
+    "goldToUpgrade": 300
+  }
+]
