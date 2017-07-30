@@ -1,24 +1,24 @@
 [
   {
     "name": "Resting Assualt",
-    "id": "001",
+    "id": 1,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Each time this character uses counter it gains a stack. This character's next strike attack will consume the stacks and inflict MODIFIER additional damage for each stack.",
+    "effectDescription": null,
     "effectOnMoves": [
       "1"
     ],
     "effectModifier": "damage",
     "modifier": [
-      1,
-      26
+      2,
+      23
     ],
     "requiresSuccess": 0,
-    "requiresCounters": false,
+    "requiresCounters": true,
     "modiferValueEqualsCounters": true,
     "equalCounter": "2",
     "clearCounters": true,
@@ -38,21 +38,21 @@
   },
   {
     "name": "Defender's Resillience",
-    "id": "002",
+    "id": 2,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Counters heal for MODIFIER health",
+    "effectDescription": null,
     "effectOnMoves": [
       "2"
     ],
     "effectModifier": "heal",
     "modifier": [
-      3,
-      60
+      5,
+      53
     ],
     "requiresSuccess": 0,
     "requiresCounters": false,
@@ -75,21 +75,21 @@
   },
   {
     "name": "Furious Recovery",
-    "id": "003",
+    "id": 3,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Successful counters deal MODIFIER additional damage",
+    "effectDescription": null,
     "effectOnMoves": [
       "2"
     ],
     "effectModifier": "damage",
     "modifier": [
-      3,
-      98
+      8,
+      88
     ],
     "requiresSuccess": 1,
     "requiresCounters": false,
@@ -112,21 +112,21 @@
   },
   {
     "name": "Blood Sucker",
-    "id": "004",
+    "id": 4,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Strikes heal for MODIFIER health",
+    "effectDescription": null,
     "effectOnMoves": [
       "1"
     ],
     "effectModifier": "heal",
     "modifier": [
-      1,
-      29
+      2,
+      26
     ],
     "requiresSuccess": 0,
     "requiresCounters": false,
@@ -149,14 +149,14 @@
   },
   {
     "name": "Fizzle",
-    "id": "005",
+    "id": 5,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Failed rounds heal for MODIFIER health",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -164,8 +164,8 @@
     ],
     "effectModifier": "heal",
     "modifier": [
-      3,
-      45
+      4,
+      43
     ],
     "requiresSuccess": -1,
     "requiresCounters": false,
@@ -188,21 +188,21 @@
   },
   {
     "name": "Flamebreath Retreat",
-    "id": "006",
+    "id": 6,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Tied counters deal MODIFIER additional damage and cause bleed effect for STRENGTH% of target's health for 2 turns",
+    "effectDescription": null,
     "effectOnMoves": [
       "2"
     ],
     "effectModifier": "damage",
     "modifier": [
-      7,
-      98
+      8,
+      88
     ],
     "requiresSuccess": 2,
     "requiresCounters": false,
@@ -214,33 +214,33 @@
       0,
       0
     ],
-    "applyStatus": false,
+    "applyStatus": true,
     "statusTarget": "enemy",
-    "statusEffect": "none",
+    "statusEffect": "wound",
     "statusStrength": [
-      0.01,
-      0.033
+      4,
+      40
     ],
-    "statusDuration": 0
+    "statusDuration": 2
   },
   {
     "name": "Vengeful Arrow",
-    "id": "007",
+    "id": 7,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": true,
-    "effectDescription": "Failed counters and rushes overpower and deal MODIFIER additional damage",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "2"
     ],
     "effectModifier": "damage",
     "modifier": [
-      5,
-      75
+      7,
+      73
     ],
     "requiresSuccess": -1,
     "requiresCounters": false,
@@ -263,14 +263,14 @@
   },
   {
     "name": "Negation Aura",
-    "id": "008",
+    "id": 8,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Tied rounds heal for MODIFIER health",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -278,8 +278,8 @@
     ],
     "effectModifier": "heal",
     "modifier": [
-      2,
-      53
+      4,
+      42
     ],
     "requiresSuccess": 2,
     "requiresCounters": false,
@@ -302,21 +302,21 @@
   },
   {
     "name": "Violent Momentum",
-    "id": "009",
+    "id": 9,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Each time this character uses strike it gains a stack. This character's next strike attack will inflict MODIFIER additional damage for each stack.",
+    "effectDescription": null,
     "effectOnMoves": [
       "1"
     ],
     "effectModifier": "damage",
     "modifier": [
       2,
-      26
+      23
     ],
     "requiresSuccess": 0,
     "requiresCounters": false,
@@ -339,14 +339,14 @@
   },
   {
     "name": "Light Barrier",
-    "id": "010",
+    "id": 10,
     "chance": 60,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "All attacks have a 40% chance to heal for MODIFIER health",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -355,7 +355,7 @@
     "effectModifier": "heal",
     "modifier": [
       8,
-      90
+      81
     ],
     "requiresSuccess": 0,
     "requiresCounters": false,
@@ -378,14 +378,14 @@
   },
   {
     "name": "Constricting Grapple",
-    "id": "011",
+    "id": 11,
     "chance": 50,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Successful attacks have a 50% chance to stun for 1 turn",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -406,7 +406,7 @@
       0,
       0
     ],
-    "applyStatus": false,
+    "applyStatus": true,
     "statusTarget": "enemy",
     "statusEffect": "stun",
     "statusStrength": [
@@ -417,14 +417,14 @@
   },
   {
     "name": "Furious Gust",
-    "id": "012",
+    "id": 12,
     "chance": 60,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Strikes have 60% chance to stagger for 2 turns",
+    "effectDescription": null,
     "effectOnMoves": [
       "1"
     ],
@@ -454,14 +454,14 @@
   },
   {
     "name": "Radiance",
-    "id": "013",
+    "id": 13,
     "chance": 15,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "All attacks have a 15% chance to stun for 1 turn",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -493,21 +493,21 @@
   },
   {
     "name": "Night Edge",
-    "id": "014",
+    "id": 14,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Successful Strikes cause bleed effect for STRENGTH% of target health for 4 turns",
+    "effectDescription": null,
     "effectOnMoves": [
       "1"
     ],
-    "effectModifier": "damage",
+    "effectModifier": "%damage",
     "modifier": [
-      0,
-      0
+      0.1,
+      0.1
     ],
     "requiresSuccess": 1,
     "requiresCounters": false,
@@ -519,25 +519,25 @@
       0,
       0
     ],
-    "applyStatus": true,
+    "applyStatus": false,
     "statusTarget": "enemy",
-    "statusEffect": "bleed",
+    "statusEffect": "none",
     "statusStrength": [
-      0.02,
-      0.05500000000000001
+      0,
+      0
     ],
-    "statusDuration": 4
+    "statusDuration": 1
   },
   {
     "name": "Fatal Flurry",
-    "id": "015",
+    "id": 15,
     "chance": 35,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Rushes have a 35% chance to cause bleed effect for STRENGTH% of target health for 3 turns",
+    "effectDescription": null,
     "effectOnMoves": [
       "0"
     ],
@@ -558,30 +558,30 @@
     ],
     "applyStatus": true,
     "statusTarget": "enemy",
-    "statusEffect": "bleed",
+    "statusEffect": "wound",
     "statusStrength": [
-      0.02,
-      0.05500000000000001
+      3,
+      30
     ],
     "statusDuration": 3
   },
   {
     "name": "Modular Strike",
-    "id": "016",
+    "id": 16,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": true,
-    "effectDescription": "Failed strikes overpower and deal MODIFIER additional damage",
+    "effectDescription": null,
     "effectOnMoves": [
       "1"
     ],
     "effectModifier": "damage",
     "modifier": [
-      8,
-      45
+      4,
+      40
     ],
     "requiresSuccess": -1,
     "requiresCounters": false,
@@ -595,7 +595,7 @@
     ],
     "applyStatus": false,
     "statusTarget": "enemy",
-    "statusEffect": "bleed",
+    "statusEffect": "wound",
     "statusStrength": [
       0,
       0
@@ -604,14 +604,14 @@
   },
   {
     "name": "Forceful Shot",
-    "id": "017",
+    "id": 17,
     "chance": 40,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "All Successful attacks have a 40% chance to cause stagger effect for three turns",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -643,14 +643,14 @@
   },
   {
     "name": "Surge",
-    "id": "018",
+    "id": 18,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Failed Counters cause a stun effect for 2 turns",
+    "effectDescription": null,
     "effectOnMoves": [
       "2"
     ],
@@ -680,23 +680,23 @@
   },
   {
     "name": "Breaker Slash",
-    "id": "019",
+    "id": 19,
     "chance": 10,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "All attacks have a 10% chance to cause bleed effect for STRENGTH% of target health for 10 turns",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
       "2"
     ],
-    "effectModifier": "damage",
+    "effectModifier": "%damage",
     "modifier": [
-      0,
-      0
+      0.045,
+      0.045
     ],
     "requiresSuccess": 0,
     "requiresCounters": false,
@@ -708,32 +708,32 @@
       0,
       0
     ],
-    "applyStatus": true,
+    "applyStatus": false,
     "statusTarget": "enemy",
-    "statusEffect": "bleed",
+    "statusEffect": "none",
     "statusStrength": [
-      0.025,
-      0.05500000000000001
+      0,
+      0
     ],
-    "statusDuration": 4
+    "statusDuration": 0
   },
   {
     "name": "Final Strike",
-    "id": "020",
+    "id": 20,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Sucessful Strikes after at least 1 Counter and 1 Rush cause bleed effect for STRENGTH% of target health for 2 turns",
+    "effectDescription": null,
     "effectOnMoves": [
       "1"
     ],
-    "effectModifier": "damage",
+    "effectModifier": "%damage",
     "modifier": [
-      0,
-      0
+      0.12,
+      0.12
     ],
     "requiresSuccess": 1,
     "requiresCounters": true,
@@ -745,9 +745,9 @@
       -1,
       1
     ],
-    "applyStatus": true,
+    "applyStatus": false,
     "statusTarget": "enemy",
-    "statusEffect": "bleed",
+    "statusEffect": "wound",
     "statusStrength": [
       0.05,
       0.33
@@ -756,14 +756,14 @@
   },
   {
     "name": "Sharpened Shuriken",
-    "id": "021",
+    "id": 21,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Sucessful Rushes cause bleed effect for STRENGTH% of target health for 3 turns",
+    "effectDescription": null,
     "effectOnMoves": [
       "0"
     ],
@@ -784,23 +784,23 @@
     ],
     "applyStatus": true,
     "statusTarget": "enemy",
-    "statusEffect": "bleed",
+    "statusEffect": "wound",
     "statusStrength": [
-      0.04,
-      0.132
+      3,
+      30
     ],
     "statusDuration": 3
   },
   {
     "name": "Stunning Shuriken",
-    "id": "022",
+    "id": 22,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Tied Counters cause stun effect for 1 turn",
+    "effectDescription": null,
     "effectOnMoves": [
       "2"
     ],
@@ -830,21 +830,21 @@
   },
   {
     "name": "Prepared Attack",
-    "id": "023",
+    "id": 23,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Sucessful Strikes deal MODIFIER additional damage",
+    "effectDescription": null,
     "effectOnMoves": [
       "1"
     ],
     "effectModifier": "damage",
     "modifier": [
-      15,
-      225
+      20,
+      202
     ],
     "requiresSuccess": 1,
     "requiresCounters": false,
@@ -867,14 +867,14 @@
   },
   {
     "name": "Spider's Assualt",
-    "id": "024",
+    "id": 24,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Tied counters cause stun effect for 2 turns",
+    "effectDescription": null,
     "effectOnMoves": [
       "2"
     ],
@@ -904,21 +904,21 @@
   },
   {
     "name": "Shield Block",
-    "id": "025",
+    "id": 25,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Successful Counters heal for MODIFIER health and cause stagger effect for 1 turn",
+    "effectDescription": null,
     "effectOnMoves": [
       "2"
     ],
     "effectModifier": "heal",
     "modifier": [
-      2,
-      41
+      4,
+      40
     ],
     "requiresSuccess": 1,
     "requiresCounters": false,
@@ -941,14 +941,14 @@
   },
   {
     "name": "Twilight Resurgence",
-    "id": "026",
+    "id": 26,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Failed Strikes and Counters heal for MODIFIER health and cause dizzy effect for STRENGTH% for 3 turns",
+    "effectDescription": null,
     "effectOnMoves": [
       "1",
       "2"
@@ -979,14 +979,14 @@
   },
   {
     "name": "Moonlight Resonance",
-    "id": "027",
+    "id": 27,
     "chance": 10,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "All attacks have a 10% chance to cause stagger effect for 1 turn",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -1018,23 +1018,23 @@
   },
   {
     "name": "Sharpened Fangs",
-    "id": "028",
+    "id": 28,
     "chance": 45,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Tied Attacks have a 45% chance to cause bleed effect for STRENGTH% of target health for 2 turns",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
       "2"
     ],
-    "effectModifier": "heal",
+    "effectModifier": "%damage",
     "modifier": [
-      0,
-      0
+      0.165,
+      0.165
     ],
     "requiresSuccess": 2,
     "requiresCounters": false,
@@ -1046,9 +1046,9 @@
       -1,
       1
     ],
-    "applyStatus": true,
+    "applyStatus": false,
     "statusTarget": "enemy",
-    "statusEffect": "bleed",
+    "statusEffect": "wound",
     "statusStrength": [
       0.03,
       0.099
@@ -1057,14 +1057,14 @@
   },
   {
     "name": "Devour",
-    "id": "029",
+    "id": 29,
     "chance": 70,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Successful Attacks have a 70% chance to heal for MODIFIER health and cause bleed effect for STRENGTH% of target health for 1 turn",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -1072,8 +1072,8 @@
     ],
     "effectModifier": "heal",
     "modifier": [
-      10,
-      98
+      9,
+      96
     ],
     "requiresSuccess": 1,
     "requiresCounters": false,
@@ -1087,23 +1087,23 @@
     ],
     "applyStatus": true,
     "statusTarget": "enemy",
-    "statusEffect": "bleed",
+    "statusEffect": "wound",
     "statusStrength": [
-      0.01,
-      0.11000000000000001
+      9,
+      96
     ],
     "statusDuration": 1
   },
   {
     "name": "Eternal Embers",
-    "id": "030",
+    "id": 30,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "All Attacks cause bleed effect for STRENGTH% of target health for 1 turn",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -1126,23 +1126,23 @@
     ],
     "applyStatus": true,
     "statusTarget": "enemy",
-    "statusEffect": "bleed",
+    "statusEffect": "wound",
     "statusStrength": [
-      0.01,
-      0.044000000000000004
+      7,
+      70
     ],
     "statusDuration": 1
   },
   {
     "name": "Decent of Dawn",
-    "id": "031",
+    "id": 31,
     "chance": 0,
     "recoil": [
       1,
       52
     ],
     "overpower": false,
-    "effectDescription": "Each time this character uses rush it gains a stack. This character's next Successful attack, after at least 1 rush, will consume the stacks and inflict MODIFIER additional damage for each stack.",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -1165,7 +1165,7 @@
     ],
     "applyStatus": false,
     "statusTarget": "enemy",
-    "statusEffect": "bleed",
+    "statusEffect": "wound",
     "statusStrength": [
       0.01,
       0.033
@@ -1174,14 +1174,14 @@
   },
   {
     "name": "New Dawn",
-    "id": "032",
+    "id": 32,
     "chance": 70,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Failed attacks have a 70% chance to heal for MODIFIER health",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -1204,7 +1204,7 @@
     ],
     "applyStatus": false,
     "statusTarget": "enemy",
-    "statusEffect": "bleed",
+    "statusEffect": "wound",
     "statusStrength": [
       0.01,
       0.033
@@ -1213,14 +1213,14 @@
   },
   {
     "name": "Reap Life",
-    "id": "033",
+    "id": 33,
     "chance": 50,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Tied attacks have a 50% chance to heal for MODIFIER health",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -1243,7 +1243,7 @@
     ],
     "applyStatus": false,
     "statusTarget": "enemy",
-    "statusEffect": "bleed",
+    "statusEffect": "wound",
     "statusStrength": [
       0.01,
       0.033
@@ -1252,14 +1252,14 @@
   },
   {
     "name": "Battering Blows",
-    "id": "034",
+    "id": 34,
     "chance": 70,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Each time this character uses rush it gains a stack. This character's next attack, after at least 1 rush, will inflict MODIFIER additional damage for each stack.",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -1267,8 +1267,8 @@
     ],
     "effectModifier": "damage",
     "modifier": [
-      5,
-      45
+      4,
+      44
     ],
     "requiresSuccess": 0,
     "requiresCounters": true,
@@ -1282,7 +1282,7 @@
     ],
     "applyStatus": false,
     "statusTarget": "enemy",
-    "statusEffect": "bleed",
+    "statusEffect": "wound",
     "statusStrength": [
       0.01,
       0.033
@@ -1291,14 +1291,14 @@
   },
   {
     "name": "Cursed Shot",
-    "id": "035",
+    "id": 35,
     "chance": 75,
     "recoil": [
-      10,
-      286
+      15,
+      155
     ],
     "overpower": false,
-    "effectDescription": "All attacks have a 75% chance to do RECOIL recoil damage",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -1321,7 +1321,7 @@
     ],
     "applyStatus": false,
     "statusTarget": "enemy",
-    "statusEffect": "bleed",
+    "statusEffect": "wound",
     "statusStrength": [
       0.01,
       0.033
@@ -1330,14 +1330,14 @@
   },
   {
     "name": "Banish",
-    "id": "036",
+    "id": 36,
     "chance": 0,
     "recoil": [
-      8,
-      78
+      7,
+      77
     ],
     "overpower": false,
-    "effectDescription": "Failed strikes cause stun effect for 3 turns and deal RECOIL recoil damage",
+    "effectDescription": null,
     "effectOnMoves": [
       "1"
     ],
@@ -1360,21 +1360,21 @@
     "statusTarget": "enemy",
     "statusEffect": "stun",
     "statusStrength": [
-        0,
-        0
+      0,
+      0
     ],
     "statusDuration": 3
   },
   {
     "name": "Malfunction",
-    "id": "037",
+    "id": 37,
     "chance": 40,
     "recoil": [
-      8,
-      130
+      9,
+      93
     ],
     "overpower": false,
-    "effectDescription": "All attcks have a 40% to deal RECOIL recoil damage and cause a stagger effect for 2 turns",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -1406,23 +1406,23 @@
   },
   {
     "name": "Last Kiss",
-    "id": "038",
+    "id": 38,
     "chance": 0,
     "recoil": [
-      10,
-      91
+      9,
+      90
     ],
     "overpower": false,
-    "effectDescription": "All attacks after 3 Counters cause a bleed effect for STRENGTH% of target's health effect for 4 turns and deal RECOIL recoil damage",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
       "2"
     ],
-    "effectModifier": "heal",
+    "effectModifier": "%damge",
     "modifier": [
-      0,
-      0
+      0.25,
+      0.25
     ],
     "requiresSuccess": 0,
     "requiresCounters": true,
@@ -1434,9 +1434,9 @@
       -1,
       3
     ],
-    "applyStatus": true,
+    "applyStatus": false,
     "statusTarget": "enemy",
-    "statusEffect": "bleed",
+    "statusEffect": "wound",
     "statusStrength": [
       0.025,
       0.0825
@@ -1445,21 +1445,21 @@
   },
   {
     "name": "Alure",
-    "id": "039",
+    "id": 39,
     "chance": 60,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "All Counters have a 60% chance to cause a stun effect 2 turns. Also, for every counter, Counters do MODIFIER less damage",
+    "effectDescription": null,
     "effectOnMoves": [
       "2"
     ],
     "effectModifier": "lessdamage",
     "modifier": [
       1,
-      15
+      14
     ],
     "requiresSuccess": 0,
     "requiresCounters": false,
@@ -1482,23 +1482,23 @@
   },
   {
     "name": "End Life",
-    "id": "040",
-    "chance": 9,
+    "id": 40,
+    "chance": 8,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "All attacks have a 9% chance to cause a bleed effect for STRENGTH% of target's health for 1 turn",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
       "2"
     ],
-    "effectModifier": "heal",
+    "effectModifier": "%damage",
     "modifier": [
-      0,
-      0
+      0.8,
+      0.8
     ],
     "requiresSuccess": 0,
     "requiresCounters": false,
@@ -1510,25 +1510,25 @@
       -1,
       4
     ],
-    "applyStatus": true,
+    "applyStatus": false,
     "statusTarget": "enemy",
-    "statusEffect": "bleed",
+    "statusEffect": "wound",
     "statusStrength": [
       0.25,
-      0.8250000000000001
+      0.825
     ],
     "statusDuration": 1
   },
   {
     "name": "Element of Surprise",
-    "id": "041",
+    "id": 41,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "If the first attack is Successful, Deal MODIFIER additional damage",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -1536,8 +1536,8 @@
     ],
     "effectModifier": "damage",
     "modifier": [
-      50,
-      300
+      26,
+      262
     ],
     "requiresSuccess": 1,
     "requiresCounters": true,
@@ -1547,23 +1547,23 @@
     "requiredCounters": 1,
     "applyStatus": false,
     "statusTarget": "enemy",
-    "statusEffect": "bleed",
+    "statusEffect": "wound",
     "statusStrength": [
       0.25,
-      0.8250000000000001
+      0.825
     ],
     "statusDuration": 2
   },
   {
     "name": "Sharp Wind",
-    "id": "042",
+    "id": 42,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Strikes cause a bleed effect for STRENGTH% of target's health for 2 turns",
+    "effectDescription": null,
     "effectOnMoves": [
       "1"
     ],
@@ -1584,30 +1584,30 @@
     ],
     "applyStatus": true,
     "statusTarget": "enemy",
-    "statusEffect": "bleed",
+    "statusEffect": "wound",
     "statusStrength": [
-      0.04,
-      0.066
+      7,
+      70
     ],
     "statusDuration": 2
   },
   {
     "name": "Premeditated End",
-    "id": "043",
+    "id": 43,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Counters after 1 Rush and 1 Strike deal MODIFIER additional damage",
+    "effectDescription": null,
     "effectOnMoves": [
       "2"
     ],
     "effectModifier": "damage",
     "modifier": [
-      80,
-      450
+      42,
+      429
     ],
     "requiresSuccess": 0,
     "requiresCounters": true,
@@ -1621,7 +1621,7 @@
     ],
     "applyStatus": false,
     "statusTarget": "enemy",
-    "statusEffect": "bleed",
+    "statusEffect": "wound",
     "statusStrength": [
       0.07,
       0.099
@@ -1630,14 +1630,14 @@
   },
   {
     "name": "Wrecker Blade",
-    "id": "044",
+    "id": 44,
     "chance": 65,
     "recoil": [
       0,
       0
     ],
     "overpower": true,
-    "effectDescription": "All attacks have a 85% chance to overpower",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -1669,14 +1669,14 @@
   },
   {
     "name": "Heated Blade",
-    "id": "045",
-    "chance": 80,
+    "id": 45,
+    "chance": 55,
     "recoil": [
-      2,
-      26
+      1,
+      11
     ],
     "overpower": true,
-    "effectDescription": "All attacks have a 80% chance to deal RECOIL recoil damage and cause a bleed effect for STRENGTH% of target's health for 1 turn ",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -1699,30 +1699,30 @@
     ],
     "applyStatus": true,
     "statusTarget": "enemy",
-    "statusEffect": "bleed",
+    "statusEffect": "wound",
     "statusStrength": [
-      0.02,
-      0.044000000000000004
+      1,
+      11
     ],
     "statusDuration": 2
   },
   {
     "name": "Strike of Zeus",
-    "id": "046",
+    "id": 46,
     "chance": 0,
     "recoil": [
-      10,
-      65
+      5,
+      58
     ],
     "overpower": true,
-    "effectDescription": "Successful Strikes overpower and deal MODIFIER additonal damage and RECOIL recoil damage",
+    "effectDescription": null,
     "effectOnMoves": [
       "1"
     ],
     "effectModifier": "damage",
     "modifier": [
-      30,
-      225
+      20,
+      203
     ],
     "requiresSuccess": 1,
     "requiresCounters": false,
@@ -1736,23 +1736,23 @@
     ],
     "applyStatus": false,
     "statusTarget": "enemy",
-    "statusEffect": "bleed",
+    "statusEffect": "wound",
     "statusStrength": [
       0.02,
-      0.044000000000000004
+      0.044
     ],
     "statusDuration": 2
   },
   {
     "name": "Swallow",
-    "id": "047",
+    "id": 47,
     "chance": 40,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Failed attacks have a 40% chance to stun for 6 turns",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -1784,14 +1784,14 @@
   },
   {
     "name": "Oceanic Pressure",
-    "id": "048",
+    "id": 48,
     "chance": 0,
     "recoil": [
       24,
       182
     ],
     "overpower": false,
-    "effectDescription": "Successful attacks deal MODIFIER additional damage and RECOIL recoil damage",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -1823,14 +1823,14 @@
   },
   {
     "name": "Submerge",
-    "id": "049",
+    "id": 49,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "After at least 1 Counters, 1 Strikes, and 1 Rushes all attacks consume stacks, heal for MODIFIER health and cause a stun effect on the user for 4 turns",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -1862,14 +1862,14 @@
   },
   {
     "name": "Gambit Throw",
-    "id": "050",
+    "id": 50,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "After 1 Strike, all attacks do MODIFIER less damage",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -1877,8 +1877,8 @@
     ],
     "effectModifier": "lessdamage",
     "modifier": [
-      50,
-      450
+      27,
+      278
     ],
     "requiresSuccess": 0,
     "requiresCounters": true,
@@ -1901,14 +1901,14 @@
   },
   {
     "name": "Lucky Card",
-    "id": "051",
+    "id": 51,
     "chance": 50,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "All attacks have a 50% to deal MODIFIER additional damage",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -1916,8 +1916,8 @@
     ],
     "effectModifier": "damage",
     "modifier": [
-      20,
-      100
+      9,
+      97
     ],
     "requiresSuccess": 0,
     "requiresCounters": false,
@@ -1940,14 +1940,14 @@
   },
   {
     "name": "Unlucky Card",
-    "id": "052",
+    "id": 52,
     "chance": 50,
     "recoil": [
-      20,
-      100
+      9,
+      97
     ],
     "overpower": false,
-    "effectDescription": "All attacks have a 50% to deal RECOIL recoil damage",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -1979,37 +1979,37 @@
   },
   {
     "name": "Corrode",
-    "id": "053",
+    "id": 53,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "All attacks cause a bleed effect for STRENGTH% of target health for 3 turns",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
       "2"
     ],
-    "effectModifier": "damage",
+    "effectModifier": "%damage",
     "modifier": [
-      0,
-      0
+      0.03,
+      0.03
     ],
     "requiresSuccess": 0,
     "requiresCounters": false,
     "modiferValueEqualsCounters": false,
     "equalCounter": "1",
-    "clearCounters": false,
+    "clearCounters": true,
     "requiredCounters": [
       -1,
       2,
       -1
     ],
-    "applyStatus": true,
+    "applyStatus": false,
     "statusTarget": "enemy",
-    "statusEffect": "bleed",
+    "statusEffect": "wound",
     "statusStrength": [
       0.02,
       0.04
@@ -2018,14 +2018,14 @@
   },
   {
     "name": "Acidic Belch",
-    "id": "054",
+    "id": 54,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Successful attacks deal MODIFIER additional damage",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -2033,8 +2033,8 @@
     ],
     "effectModifier": "damage",
     "modifier": [
-      30,
-      70
+      6,
+      69
     ],
     "requiresSuccess": 1,
     "requiresCounters": false,
@@ -2048,7 +2048,7 @@
     ],
     "applyStatus": false,
     "statusTarget": "enemy",
-    "statusEffect": "bleed",
+    "statusEffect": "wound",
     "statusStrength": [
       0.02,
       0.04
@@ -2057,14 +2057,14 @@
   },
   {
     "name": "Eveloping Sunshine",
-    "id": "055",
+    "id": 55,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "All attacks cause dizzy effect for STRENGTH% for 1 turn",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -2089,21 +2089,21 @@
     "statusTarget": "enemy",
     "statusEffect": "dizzy",
     "statusStrength": [
-      0.20,
-      0.40
+      0.2,
+      0.4
     ],
     "statusDuration": 1
   },
   {
     "name": "From Beneath",
-    "id": "056",
+    "id": 56,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "All attacks after at least 1 Rush, 1 Strike, and 1 Counter, clear stacks, deal MODIFIER additional damage and cause stun effect for 2 turns",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -2111,8 +2111,8 @@
     ],
     "effectModifier": "damage",
     "modifier": [
-      10,
-      50
+      4,
+      49
     ],
     "requiresSuccess": 0,
     "requiresCounters": true,
@@ -2135,22 +2135,22 @@
   },
   {
     "name": "Power Engine",
-    "id": "057",
+    "id": 57,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "For every Counter, all Rushes and Strikes deal MODIFIER additional damage",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1"
     ],
     "effectModifier": "damage",
     "modifier": [
-      7,
-      35
+      3,
+      34
     ],
     "requiresSuccess": 0,
     "requiresCounters": false,
@@ -2173,14 +2173,14 @@
   },
   {
     "name": "Over Heat",
-    "id": "058",
+    "id": 58,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "After 8 Counters, all attcks clear stacks and cause a bleed effect on the user for STRENGTH% of user health for 4 turns",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -2203,23 +2203,23 @@
     ],
     "applyStatus": true,
     "statusTarget": "self",
-    "statusEffect": "bleed",
+    "statusEffect": "wound",
     "statusStrength": [
-      0.04,
-      0.08
+      8,
+      80
     ],
     "statusDuration": 4
   },
   {
     "name": "Morning's Fortune",
-    "id": "059",
+    "id": 59,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Successful attacks heal for MODIFIER health",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -2227,7 +2227,7 @@
     ],
     "effectModifier": "heal",
     "modifier": [
-      10,
+      5,
       50
     ],
     "requiresSuccess": 1,
@@ -2242,7 +2242,7 @@
     ],
     "applyStatus": false,
     "statusTarget": "self",
-    "statusEffect": "bleed",
+    "statusEffect": "wound",
     "statusStrength": [
       0.04,
       0.08
@@ -2251,14 +2251,14 @@
   },
   {
     "name": "Dusk's Embrace",
-    "id": "060",
+    "id": 60,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Successful attacks deal MODIFIER additional damage",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -2266,8 +2266,8 @@
     ],
     "effectModifier": "damage",
     "modifier": [
-      15,
-      75
+      7,
+      74
     ],
     "requiresSuccess": 1,
     "requiresCounters": false,
@@ -2281,7 +2281,7 @@
     ],
     "applyStatus": false,
     "statusTarget": "self",
-    "statusEffect": "bleed",
+    "statusEffect": "wound",
     "statusStrength": [
       0.04,
       0.08
@@ -2290,14 +2290,14 @@
   },
   {
     "name": "Winter's Curse",
-    "id": "061",
+    "id": 61,
     "chance": 30,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "All attacks have a 30% chance to cause stun effect for 1 turn",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -2329,14 +2329,14 @@
   },
   {
     "name": "Burning Lashes",
-    "id": "062",
+    "id": 62,
     "chance": 30,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "All attacks have a 30% chance to cause a bleed effect for STRENGTH% of targets health for 3 turns",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -2359,23 +2359,23 @@
     ],
     "applyStatus": true,
     "statusTarget": "enemy",
-    "statusEffect": "bleed",
+    "statusEffect": "wound",
     "statusStrength": [
-      0.03,
-      0.05
+      5,
+      50
     ],
-    "statusDuration": 3
+    "statusDuration": 4
   },
   {
     "name": "Predatory Gaze",
-    "id": "063",
+    "id": 63,
     "chance": 45,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Tied attacks have a 45% chance to cause a stun effect for 2 turns",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -2407,14 +2407,14 @@
   },
   {
     "name": "Regenerating Life Force",
-    "id": "064",
+    "id": 64,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "Attacks after 10 attacks heal for MODIFIER health and cause a stun effect on the user for 5 turns",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -2422,11 +2422,11 @@
     ],
     "effectModifier": "heal",
     "modifier": [
-      10,
-      100
+      8,
+      80
     ],
     "requiresSuccess": 0,
-    "requiresCounters": false,
+    "requiresCounters": true,
     "modiferValueEqualsCounters": false,
     "equalCounter": "2",
     "clearCounters": false,
@@ -2442,14 +2442,14 @@
   },
   {
     "name": "Heavy Blade",
-    "id": "065",
+    "id": 65,
     "chance": 70,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "All attacks have a 70% chance to cause a stagger effect on the user for 1 turn",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -2477,14 +2477,14 @@
   },
   {
     "name": "Shattering Blows",
-    "id": "066",
+    "id": 66,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "For every Rush, all attacks deal MODIFIER additional damage",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -2492,15 +2492,19 @@
     ],
     "effectModifier": "damage",
     "modifier": [
-      6,
-      60
+      2,
+      20
     ],
     "requiresSuccess": 0,
-    "requiresCounters": false,
+    "requiresCounters": true,
     "modiferValueEqualsCounters": true,
     "equalCounter": "0",
     "clearCounters": false,
-    "requiredCounters": 10,
+    "requiredCounters": [
+      0,
+      -1,
+      -1
+    ],
     "applyStatus": false,
     "statusTarget": "self",
     "statusEffect": "stagger",
@@ -2512,14 +2516,14 @@
   },
   {
     "name": "Mighty Spirit",
-    "id": "067",
+    "id": 67,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "All attacks cause stagger effect for 1 turn",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -2547,14 +2551,14 @@
   },
   {
     "name": "Blade Burst",
-    "id": "068",
+    "id": 68,
     "chance": 65,
     "recoil": [
-      30,
-      150
+      13,
+      137
     ],
     "overpower": false,
-    "effectDescription": "All rushes have a 65% chance to deal RECOIL recoil damage and cause a bleed effect on the target for STRENGTH% of their health for 2 turns",
+    "effectDescription": null,
     "effectOnMoves": [
       "0"
     ],
@@ -2571,31 +2575,31 @@
     "requiredCounters": 10,
     "applyStatus": true,
     "statusTarget": "enemy",
-    "statusEffect": "bleed",
+    "statusEffect": "wound",
     "statusStrength": [
-      0.12,
-      0.20
+      9,
+      90
     ],
     "statusDuration": 4
   },
   {
     "name": "Full Payload",
-    "id": "069",
+    "id": 69,
     "chance": 0,
     "recoil": [
-      30,
-      150
+      13,
+      137
     ],
     "overpower": false,
-    "effectDescription": "All Successful strikes and counters deal MODIFIER recoil damage and cause a stun effect on the user for 1 turn",
+    "effectDescription": null,
     "effectOnMoves": [
       "1",
       "2"
     ],
     "effectModifier": "damage",
     "modifier": [
-      20,
-      120
+      11,
+      112
     ],
     "requiresSuccess": 1,
     "requiresCounters": false,
@@ -2614,23 +2618,23 @@
   },
   {
     "name": "Havoc Swing",
-    "id": "071",
+    "id": 71,
     "chance": 60,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "All attacks have a 60% chance to cause a bleed effect for STRENGTH% on the target for 1 turn",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
       "2"
     ],
-    "effectModifier": "damage",
+    "effectModifier": "%damage",
     "modifier": [
-      0,
-      0
+      0.1,
+      0.15
     ],
     "requiresSuccess": 0,
     "requiresCounters": false,
@@ -2638,25 +2642,25 @@
     "equalCounter": "0",
     "clearCounters": false,
     "requiredCounters": 10,
-    "applyStatus": true,
+    "applyStatus": false,
     "statusTarget": "enemy",
-    "statusEffect": "bleed",
+    "statusEffect": "wound",
     "statusStrength": [
-      0.10,
-      0.20
+      11,
+      110
     ],
     "statusDuration": 1
   },
   {
     "name": "Purge of Nature",
-    "id": "072",
+    "id": 72,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "All failed attacks stun the enemy for 2 turns",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -2684,14 +2688,14 @@
   },
   {
     "name": "Adaptive Counter",
-    "id": "073",
+    "id": 73,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
     "overpower": false,
-    "effectDescription": "All counters cause a dizzy effect on the enemy for STRENGTH%",
+    "effectDescription": null,
     "effectOnMoves": [
       "2"
     ],
@@ -2717,14 +2721,14 @@
   },
   {
     "name": "Sweeping Strikes",
-    "id": "074",
+    "id": 74,
     "chance": 20,
     "recoil": [
       0,
       0
     ],
     "overpower": true,
-    "effectDescription": "All attacks have a 20% chance to overpower",
+    "effectDescription": null,
     "effectOnMoves": [
       "0",
       "1",
@@ -2752,14 +2756,14 @@
   },
   {
     "name": "Swift Stab",
-    "id": "075",
+    "id": 75,
     "chance": 0,
     "recoil": [
       0,
       0
     ],
-    "overpower": true,
-    "effectDescription": "Successful rushes stun the enemy for 1 turn",
+    "overpower": false,
+    "effectDescription": null,
     "effectOnMoves": [
       "0"
     ],
@@ -2780,6 +2784,1042 @@
     "statusStrength": [
       0,
       0
+    ],
+    "statusDuration": 1
+  },
+  {
+    "name": "Unstoppable Spiral",
+    "id": 76,
+    "chance": 20,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": true,
+    "effectDescription": null,
+    "effectOnMoves": [
+      "0",
+      "1",
+      "2"
+    ],
+    "effectModifier": "damage",
+    "modifier": [
+      0,
+      0
+    ],
+    "requiresSuccess": 0,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": 10,
+    "applyStatus": true,
+    "statusTarget": "enemy",
+    "statusEffect": "dizzy",
+    "statusStrength": [
+      0.01,
+      0.05
+    ],
+    "statusDuration": 1
+  },
+  {
+    "name": "Charged Arrow",
+    "id": 77,
+    "chance": 0,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": true,
+    "effectDescription": null,
+    "effectOnMoves": [
+      "1"
+    ],
+    "effectModifier": "damage",
+    "modifier": [
+      11,
+      113
+    ],
+    "requiresSuccess": 0,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": 10,
+    "applyStatus": false,
+    "statusTarget": "enemy",
+    "statusEffect": "dizzy",
+    "statusStrength": [
+      0.01,
+      0.05
+    ],
+    "statusDuration": 1
+  },
+  {
+    "name": "Empty Core",
+    "id": 78,
+    "chance": 0,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": true,
+    "effectDescription": null,
+    "effectOnMoves": [
+      "0",
+      "1",
+      "2"
+    ],
+    "effectModifier": "lessdamage",
+    "modifier": [
+      36,
+      361
+    ],
+    "requiresSuccess": 0,
+    "requiresCounters": true,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": [
+      -1,
+      3,
+      -1
+    ],
+    "applyStatus": false,
+    "statusTarget": "enemy",
+    "statusEffect": "dizzy",
+    "statusStrength": [
+      0.01,
+      0.05
+    ],
+    "statusDuration": 1
+  },
+  {
+    "name": "Energize",
+    "id": 79,
+    "chance": 0,
+    "recoil": [
+      4,
+      45
+    ],
+    "overpower": false,
+    "effectDescription": null,
+    "effectOnMoves": [
+      "0"
+    ],
+    "effectModifier": "damage",
+    "modifier": [
+      4,
+      45
+    ],
+    "requiresSuccess": 0,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": true,
+    "requiredCounters": [
+      -1,
+      3,
+      -1
+    ],
+    "applyStatus": false,
+    "statusTarget": "enemy",
+    "statusEffect": "dizzy",
+    "statusStrength": [
+      0.01,
+      0.05
+    ],
+    "statusDuration": 1
+  },
+  {
+    "name": "Bewitched Shot",
+    "id": 80,
+    "chance": 20,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": false,
+    "effectDescription": null,
+    "effectOnMoves": [
+      "2"
+    ],
+    "effectModifier": "damage",
+    "modifier": [
+      0,
+      0
+    ],
+    "requiresSuccess": 0,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": [
+      -1,
+      3,
+      -1
+    ],
+    "applyStatus": true,
+    "statusTarget": "enemy",
+    "statusEffect": "stun",
+    "statusStrength": [
+      0.01,
+      0.05
+    ],
+    "statusDuration": 1
+  },
+  {
+    "name": "Etherial Dismantle",
+    "id": 81,
+    "chance": 0,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": true,
+    "effectDescription": null,
+    "effectOnMoves": [
+      "0",
+      "1"
+    ],
+    "effectModifier": "%damage",
+    "modifier": [
+      0.1,
+      0.1
+    ],
+    "requiresSuccess": -1,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": [
+      -1,
+      3,
+      -1
+    ],
+    "applyStatus": false,
+    "statusTarget": "enemy",
+    "statusEffect": "wound",
+    "statusStrength": [
+      0.11,
+      0.33
+    ],
+    "statusDuration": 1
+  },
+  {
+    "name": "Plane Shift",
+    "id": 82,
+    "chance": 50,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": false,
+    "effectDescription": null,
+    "effectOnMoves": [
+      "0",
+      "1"
+    ],
+    "effectModifier": "heal",
+    "modifier": [
+      9,
+      92
+    ],
+    "requiresSuccess": -1,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": [
+      -1,
+      3,
+      -1
+    ],
+    "applyStatus": true,
+    "statusTarget": "enemy",
+    "statusEffect": "stun",
+    "statusStrength": [
+      0.11,
+      0.33
+    ],
+    "statusDuration": 1
+  },
+  {
+    "name": "Incapacitator Arrows",
+    "id": 83,
+    "chance": 80,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": false,
+    "effectDescription": null,
+    "effectOnMoves": [
+      "0",
+      "1",
+      "2"
+    ],
+    "effectModifier": "damage",
+    "modifier": [
+      8,
+      89
+    ],
+    "requiresSuccess": 0,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": [
+      -1,
+      3,
+      -1
+    ],
+    "applyStatus": true,
+    "statusTarget": "enemy",
+    "statusEffect": "stagger",
+    "statusStrength": [
+      0.11,
+      0.33
+    ],
+    "statusDuration": 1
+  },
+  {
+    "name": "Impermeable Shine",
+    "id": 84,
+    "chance": 0,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": false,
+    "effectDescription": null,
+    "effectOnMoves": [
+      "0",
+      "1",
+      "2"
+    ],
+    "effectModifier": "heal",
+    "modifier": [
+      17,
+      170
+    ],
+    "requiresSuccess": -1,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": [
+      -1,
+      3,
+      -1
+    ],
+    "applyStatus": true,
+    "statusTarget": "enemy",
+    "statusEffect": "stagger",
+    "statusStrength": [
+      0.11,
+      0.33
+    ],
+    "statusDuration": 1
+  },
+  {
+    "name": "Perfect Dazzle",
+    "id": 85,
+    "chance": 20,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": false,
+    "effectDescription": null,
+    "effectOnMoves": [
+      "0",
+      "1",
+      "2"
+    ],
+    "effectModifier": "lessdamage",
+    "modifier": [
+      17,
+      170
+    ],
+    "requiresSuccess": 0,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": [
+      -1,
+      3,
+      -1
+    ],
+    "applyStatus": true,
+    "statusTarget": "enemy",
+    "statusEffect": "wound",
+    "statusStrength": [
+      9,
+      90
+    ],
+    "statusDuration": 1
+  },
+  {
+    "name": "Hexed Growth",
+    "id": 86,
+    "chance": 0,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": false,
+    "effectDescription": null,
+    "effectOnMoves": [
+      "0",
+      "1",
+      "2"
+    ],
+    "effectModifier": "heal",
+    "modifier": [
+      6,
+      60
+    ],
+    "requiresSuccess": 0,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": [
+      -1,
+      3,
+      -1
+    ],
+    "applyStatus": false,
+    "statusTarget": "enemy",
+    "statusEffect": "wound",
+    "statusStrength": [
+      0,
+      0
+    ],
+    "statusDuration": 0
+  },
+  {
+    "name": "Detatchable Monster Trap",
+    "id": 87,
+    "chance": 0,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": false,
+    "effectDescription": null,
+    "effectOnMoves": [
+      "0",
+      "1",
+      "2"
+    ],
+    "effectModifier": "heal",
+    "modifier": [
+      0,
+      0
+    ],
+    "requiresSuccess": 1,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": 1,
+    "applyStatus": true,
+    "statusTarget": "enemy",
+    "statusEffect": "stun",
+    "statusStrength": [
+      0,
+      0
+    ],
+    "statusDuration": 2
+  },
+  {
+    "name": "Soul Silence",
+    "id": 88,
+    "chance": 20,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": false,
+    "effectDescription": null,
+    "effectOnMoves": [
+      "0",
+      "1",
+      "2"
+    ],
+    "effectModifier": "damage",
+    "modifier": [
+      8,
+      80
+    ],
+    "requiresSuccess": 0,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": 1,
+    "applyStatus": true,
+    "statusTarget": "enemy",
+    "statusEffect": "stun",
+    "statusStrength": [
+      0,
+      0
+    ],
+    "statusDuration": 1
+  },
+  {
+    "name": "Soul Shatter",
+    "id": 89,
+    "chance": 20,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": true,
+    "effectDescription": null,
+    "effectOnMoves": [
+      "0",
+      "1",
+      "2"
+    ],
+    "effectModifier": "damage",
+    "modifier": [
+      11,
+      115
+    ],
+    "requiresSuccess": 0,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": 1,
+    "applyStatus": false,
+    "statusTarget": "enemy",
+    "statusEffect": "stun",
+    "statusStrength": [
+      0,
+      0
+    ],
+    "statusDuration": 1
+  },
+  {
+    "name": "Fatal Infestation",
+    "id": 90,
+    "chance": 30,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": false,
+    "effectDescription": null,
+    "effectOnMoves": [
+      "0",
+      "1",
+      "2"
+    ],
+    "effectModifier": "%damage",
+    "modifier": [
+      0.02,
+      0.07
+    ],
+    "requiresSuccess": 0,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": 1,
+    "applyStatus": false,
+    "statusTarget": "enemy",
+    "statusEffect": "stun",
+    "statusStrength": [
+      0,
+      0
+    ],
+    "statusDuration": 1
+  },
+  {
+    "name": "Plane Split",
+    "id": 91,
+    "chance": 0,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": false,
+    "effectDescription": null,
+    "effectOnMoves": [
+      "0",
+      "1",
+      "2"
+    ],
+    "effectModifier": "%damage",
+    "modifier": [
+      0.02,
+      0.04
+    ],
+    "requiresSuccess": 0,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": 1,
+    "applyStatus": false,
+    "statusTarget": "enemy",
+    "statusEffect": "stun",
+    "statusStrength": [
+      0,
+      0
+    ],
+    "statusDuration": 1
+  },
+  {
+    "name": "Martial Stance",
+    "id": 92,
+    "chance": 0,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": false,
+    "effectDescription": null,
+    "effectOnMoves": [
+      "0",
+      "1",
+      "2"
+    ],
+    "effectModifier": "heal",
+    "modifier": [
+      7,
+      79
+    ],
+    "requiresSuccess": 1,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": 1,
+    "applyStatus": false,
+    "statusTarget": "enemy",
+    "statusEffect": "stun",
+    "statusStrength": [
+      0,
+      0
+    ],
+    "statusDuration": 1
+  },
+  {
+    "name": "Full Strike",
+    "id": 93,
+    "chance": 0,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": false,
+    "effectDescription": null,
+    "effectOnMoves": [
+      "2"
+    ],
+    "effectModifier": "%damage",
+    "modifier": [
+      0.05,
+      0.1
+    ],
+    "requiresSuccess": 1,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": 1,
+    "applyStatus": false,
+    "statusTarget": "enemy",
+    "statusEffect": "stun",
+    "statusStrength": [
+      0,
+      0
+    ],
+    "statusDuration": 1
+  },
+  {
+    "name": "Hardened Strikes",
+    "id": 94,
+    "chance": 65,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": true,
+    "effectDescription": null,
+    "effectOnMoves": [
+      "0",
+      "1",
+      "2"
+    ],
+    "effectModifier": "damage",
+    "modifier": [
+      0,
+      0
+    ],
+    "requiresSuccess": 0,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": 1,
+    "applyStatus": false,
+    "statusTarget": "enemy",
+    "statusEffect": "stun",
+    "statusStrength": [
+      0,
+      0
+    ],
+    "statusDuration": 1
+  },
+  {
+    "name": "Elevated Assault",
+    "id": 95,
+    "chance": 30,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": false,
+    "effectDescription": null,
+    "effectOnMoves": [
+      "2"
+    ],
+    "effectModifier": "damage",
+    "modifier": [
+      6,
+      60
+    ],
+    "requiresSuccess": 0,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": 1,
+    "applyStatus": true,
+    "statusTarget": "enemy",
+    "statusEffect": "stagger",
+    "statusStrength": [
+      0,
+      0
+    ],
+    "statusDuration": 1
+  },
+  {
+    "name": "Launching Strike",
+    "id": 96,
+    "chance": 0,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": false,
+    "effectDescription": null,
+    "effectOnMoves": [
+      "0",
+      "1",
+      "2"
+    ],
+    "effectModifier": "lessdamage",
+    "modifier": [
+      17,
+      176
+    ],
+    "requiresSuccess": 1,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": 1,
+    "applyStatus": true,
+    "statusTarget": "enemy",
+    "statusEffect": "stun",
+    "statusStrength": [
+      0,
+      0
+    ],
+    "statusDuration": 2
+  },
+  {
+    "name": "Heart Stoping Howl",
+    "id": 98,
+    "chance": 35,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": true,
+    "effectDescription": null,
+    "effectOnMoves": [
+      "0",
+      "1"
+    ],
+    "effectModifier": "%damage",
+    "modifier": [
+      0.1,
+      0.1
+    ],
+    "requiresSuccess": 0,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": 1,
+    "applyStatus": false,
+    "statusTarget": "enemy",
+    "statusEffect": "sun",
+    "statusStrength": [
+      0,
+      0
+    ],
+    "statusDuration": 2
+  },
+  {
+    "name": "Endless Uproar",
+    "id": 98,
+    "chance": 20,
+    "recoil": [
+      3,
+      30
+    ],
+    "overpower": true,
+    "effectDescription": null,
+    "effectOnMoves": [
+      "2"
+    ],
+    "effectModifier": "%damage",
+    "modifier": [
+      0,
+      0
+    ],
+    "requiresSuccess": 0,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": 1,
+    "applyStatus": false,
+    "statusTarget": "enemy",
+    "statusEffect": "stagger",
+    "statusStrength": [
+      0,
+      0
+    ],
+    "statusDuration": 1
+  },
+  {
+    "name": "Dark Fire Grasp",
+    "id": 99,
+    "chance": 40,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": false,
+    "effectDescription": null,
+    "effectOnMoves": [
+      "0",
+      "1",
+      "2"
+    ],
+    "effectModifier": "%damage",
+    "modifier": [
+      0,
+      0
+    ],
+    "requiresSuccess": 0,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": 1,
+    "applyStatus": true,
+    "statusTarget": "enemy",
+    "statusEffect": "wound",
+    "statusStrength": [
+      6,
+      55
+    ],
+    "statusDuration": 3
+  },
+  {
+    "name": "Rift Pulse",
+    "id": 100,
+    "chance": 0,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": false,
+    "effectDescription": null,
+    "effectOnMoves": [
+      "0",
+      "1",
+      "2"
+    ],
+    "effectModifier": "%damage",
+    "modifier": [
+      0,
+      0
+    ],
+    "requiresSuccess": 2,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": 1,
+    "applyStatus": true,
+    "statusTarget": "enemy",
+    "statusEffect": "stun",
+    "statusStrength": [
+      0,
+      0
+    ],
+    "statusDuration": 2
+  },
+  {
+    "name": "Inferno Frenzy",
+    "id": 101,
+    "chance": 50,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": false,
+    "effectDescription": null,
+    "effectOnMoves": [
+      "0",
+      "1",
+      "2"
+    ],
+    "effectModifier": "%damage",
+    "modifier": [
+      0,
+      0
+    ],
+    "requiresSuccess": 0,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": 1,
+    "applyStatus": true,
+    "statusTarget": "enemy",
+    "statusEffect": "wound",
+    "statusStrength": [
+      7,
+      70
+    ],
+    "statusDuration": 3
+  },
+  {
+    "name": "Eruption",
+    "id": 10,
+    "chance": 50,
+    "recoil": [
+      14,
+      147
+    ],
+    "overpower": false,
+    "effectDescription": null,
+    "effectOnMoves": [
+      "0",
+      "1",
+      "2"
+    ],
+    "effectModifier": "damage",
+    "modifier": [
+      14,
+      147
+    ],
+    "requiresSuccess": 0,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": 1,
+    "applyStatus": false,
+    "statusTarget": "enemy",
+    "statusEffect": "wound",
+    "statusStrength": [
+      0.05,
+      0.07
+    ],
+    "statusDuration": 3
+  },
+  {
+    "name": "Pollen Storm",
+    "id": 102,
+    "chance": 10,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": false,
+    "effectDescription": null,
+    "effectOnMoves": [
+      "0",
+      "1",
+      "2"
+    ],
+    "effectModifier": "damage",
+    "modifier": [
+      0,
+      0
+    ],
+    "requiresSuccess": 0,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": 1,
+    "applyStatus": true,
+    "statusTarget": "enemy",
+    "statusEffect": "stun",
+    "statusStrength": [
+      0.05,
+      0.07
+    ],
+    "statusDuration": 3
+  },
+  {
+    "name": "Nature's Plague",
+    "id": 102,
+    "chance": 0,
+    "recoil": [
+      0,
+      0
+    ],
+    "overpower": false,
+    "effectDescription": null,
+    "effectOnMoves": [
+      "0",
+      "1",
+      "2"
+    ],
+    "effectModifier": "heal",
+    "modifier": [
+      3,
+      30
+    ],
+    "requiresSuccess": 0,
+    "requiresCounters": false,
+    "modiferValueEqualsCounters": false,
+    "equalCounter": "0",
+    "clearCounters": false,
+    "requiredCounters": 1,
+    "applyStatus": true,
+    "statusTarget": "enemy",
+    "statusEffect": "wound",
+    "statusStrength": [
+      3,
+      30
     ],
     "statusDuration": 1
   }
