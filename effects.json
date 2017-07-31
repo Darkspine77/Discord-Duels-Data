@@ -749,7 +749,7 @@
     "statusTarget": "enemy",
     "statusEffect": "wound",
     "statusStrength": [
-      0.05,
+      0.33,
       0.33
     ],
     "statusDuration": 2
@@ -972,7 +972,7 @@
     "statusTarget": "enemy",
     "statusEffect": "dizzy",
     "statusStrength": [
-      0.25,
+      0.475,
       0.475
     ],
     "statusDuration": 1
@@ -1050,7 +1050,7 @@
     "statusTarget": "enemy",
     "statusEffect": "wound",
     "statusStrength": [
-      0.03,
+      0.099,
       0.099
     ],
     "statusDuration": 1
@@ -1167,7 +1167,7 @@
     "statusTarget": "enemy",
     "statusEffect": "wound",
     "statusStrength": [
-      0.01,
+      0.033,
       0.033
     ],
     "statusDuration": 1
@@ -1206,7 +1206,7 @@
     "statusTarget": "enemy",
     "statusEffect": "wound",
     "statusStrength": [
-      0.01,
+      0.033,
       0.033
     ],
     "statusDuration": 1
@@ -1245,7 +1245,7 @@
     "statusTarget": "enemy",
     "statusEffect": "wound",
     "statusStrength": [
-      0.01,
+      0.033,
       0.033
     ],
     "statusDuration": 1
@@ -1284,7 +1284,7 @@
     "statusTarget": "enemy",
     "statusEffect": "wound",
     "statusStrength": [
-      0.01,
+      0.033,
       0.033
     ],
     "statusDuration": 1
@@ -1323,7 +1323,7 @@
     "statusTarget": "enemy",
     "statusEffect": "wound",
     "statusStrength": [
-      0.01,
+      0.033,
       0.033
     ],
     "statusDuration": 2
@@ -1438,7 +1438,7 @@
     "statusTarget": "enemy",
     "statusEffect": "wound",
     "statusStrength": [
-      0.025,
+      0.0825,
       0.0825
     ],
     "statusDuration": 2
@@ -1514,7 +1514,7 @@
     "statusTarget": "enemy",
     "statusEffect": "wound",
     "statusStrength": [
-      0.25,
+      0.825,
       0.825
     ],
     "statusDuration": 1
@@ -1549,7 +1549,7 @@
     "statusTarget": "enemy",
     "statusEffect": "wound",
     "statusStrength": [
-      0.25,
+      0.825,
       0.825
     ],
     "statusDuration": 2
@@ -1623,7 +1623,7 @@
     "statusTarget": "enemy",
     "statusEffect": "wound",
     "statusStrength": [
-      0.07,
+      0.099,
       0.099
     ],
     "statusDuration": 2
@@ -1738,7 +1738,7 @@
     "statusTarget": "enemy",
     "statusEffect": "wound",
     "statusStrength": [
-      0.02,
+      0.044,
       0.044
     ],
     "statusDuration": 2
@@ -2011,7 +2011,7 @@
     "statusTarget": "enemy",
     "statusEffect": "wound",
     "statusStrength": [
-      0.02,
+      0.04,
       0.04
     ],
     "statusDuration": 3
@@ -2050,7 +2050,7 @@
     "statusTarget": "enemy",
     "statusEffect": "wound",
     "statusStrength": [
-      0.02,
+      0.04,
       0.04
     ],
     "statusDuration": 3
@@ -2089,7 +2089,7 @@
     "statusTarget": "enemy",
     "statusEffect": "dizzy",
     "statusStrength": [
-      0.2,
+      0.4,
       0.4
     ],
     "statusDuration": 1
@@ -2244,7 +2244,7 @@
     "statusTarget": "self",
     "statusEffect": "wound",
     "statusStrength": [
-      0.04,
+      0.08,
       0.08
     ],
     "statusDuration": 4
@@ -2283,7 +2283,7 @@
     "statusTarget": "self",
     "statusEffect": "wound",
     "statusStrength": [
-      0.04,
+      0.08,
       0.08
     ],
     "statusDuration": 4
@@ -2656,8 +2656,8 @@
     "id": 72,
     "chance": 0,
     "recoil": [
-      0,
-      0
+      10,
+      100
     ],
     "overpower": false,
     "effectDescription": null,
@@ -2668,8 +2668,8 @@
     ],
     "effectModifier": "damage",
     "modifier": [
-      0,
-      0
+      20,
+      200
     ],
     "requiresSuccess": -1,
     "requiresCounters": false,
@@ -2714,7 +2714,7 @@
     "statusTarget": "enemy",
     "statusEffect": "dizzy",
     "statusStrength": [
-      0.325,
+      0.75,
       0.75
     ],
     "statusDuration": 2
@@ -2749,7 +2749,7 @@
     "statusTarget": "enemy",
     "statusEffect": "dizzy",
     "statusStrength": [
-      0.325,
+      0.75,
       0.75
     ],
     "statusDuration": 2
@@ -2817,7 +2817,7 @@
     "statusTarget": "enemy",
     "statusEffect": "dizzy",
     "statusStrength": [
-      0.01,
+      0.05,
       0.05
     ],
     "statusDuration": 1
@@ -2850,7 +2850,7 @@
     "statusTarget": "enemy",
     "statusEffect": "dizzy",
     "statusStrength": [
-      0.01,
+      0.05,
       0.05
     ],
     "statusDuration": 1
@@ -2889,7 +2889,7 @@
     "statusTarget": "enemy",
     "statusEffect": "dizzy",
     "statusStrength": [
-      0.01,
+      0.05,
       0.05
     ],
     "statusDuration": 1
@@ -2926,7 +2926,7 @@
     "statusTarget": "enemy",
     "statusEffect": "dizzy",
     "statusStrength": [
-      0.01,
+      0.05,
       0.05
     ],
     "statusDuration": 1
@@ -2963,7 +2963,7 @@
     "statusTarget": "enemy",
     "statusEffect": "stun",
     "statusStrength": [
-      0.01,
+      0.05,
       0.05
     ],
     "statusDuration": 1
@@ -3001,7 +3001,7 @@
     "statusTarget": "enemy",
     "statusEffect": "wound",
     "statusStrength": [
-      0.11,
+      0.33,
       0.33
     ],
     "statusDuration": 1
@@ -3039,7 +3039,7 @@
     "statusTarget": "enemy",
     "statusEffect": "stun",
     "statusStrength": [
-      0.11,
+      0.33,
       0.33
     ],
     "statusDuration": 1
@@ -3078,7 +3078,7 @@
     "statusTarget": "enemy",
     "statusEffect": "stagger",
     "statusStrength": [
-      0.11,
+      0.33,
       0.33
     ],
     "statusDuration": 1
@@ -3117,7 +3117,7 @@
     "statusTarget": "enemy",
     "statusEffect": "stagger",
     "statusStrength": [
-      0.11,
+      0.33,
       0.33
     ],
     "statusDuration": 1
@@ -3322,7 +3322,7 @@
     ],
     "effectModifier": "%damage",
     "modifier": [
-      0.02,
+      0.07,
       0.07
     ],
     "requiresSuccess": 0,
@@ -3357,7 +3357,7 @@
     ],
     "effectModifier": "%damage",
     "modifier": [
-      0.02,
+      0.04,
       0.04
     ],
     "requiresSuccess": 0,
@@ -3425,7 +3425,7 @@
     ],
     "effectModifier": "%damage",
     "modifier": [
-      0.05,
+      0.1,
       0.1
     ],
     "requiresSuccess": 1,
@@ -3748,7 +3748,7 @@
     "statusTarget": "enemy",
     "statusEffect": "wound",
     "statusStrength": [
-      0.05,
+      0.07,
       0.07
     ],
     "statusDuration": 3
@@ -3783,7 +3783,7 @@
     "statusTarget": "enemy",
     "statusEffect": "stun",
     "statusStrength": [
-      0.05,
+      0.07,
       0.07
     ],
     "statusDuration": 3
