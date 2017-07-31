@@ -2633,7 +2633,7 @@
     ],
     "effectModifier": "%damage",
     "modifier": [
-      0.1,
+      0.15,
       0.15
     ],
     "requiresSuccess": 0,
@@ -3548,7 +3548,7 @@
   },
   {
     "name": "Heart Stoping Howl",
-    "id": 98,
+    "id": 97,
     "chance": 35,
     "recoil": [
       0,
