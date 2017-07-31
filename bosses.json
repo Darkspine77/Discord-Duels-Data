@@ -1,7 +1,7 @@
 {
 	"bosses": [{
 		"name": "Layl Najma: Leader of The Moonlight Cult",
-		"base_health": 7500,
+		"base_health": 75000,
 		"weapon": {
 			"name": "Lunar Salvation"
 		},
@@ -17,7 +17,7 @@
 		}
 	}, {
 		"name": "Sunfire Elder Dragon",
-		"base_health": 6000,
+		"base_health": 60000,
 		"weapon": {
 			"name": "Searing Skyfangs"
 		},
@@ -33,7 +33,7 @@
 		}
 	}, {
 		"name": "Harbringer of Ragnarok",
-		"base_health": 6000,
+		"base_health": 60000,
 		"weapon": {
 			"name": "World's End"
 		},
@@ -49,7 +49,7 @@
 		}
 	},{
 		"name": "Vorageon: The Colossal Undersea Leviathan",
-		"base_health": 10000,
+		"base_health": 100000,
 		"weapon": {
 			"name": "Ocean's Pull"
 		},
@@ -65,7 +65,7 @@
 		}
 	},{
 		"name": "Paramegonas: The Unholy Abomination",
-		"base_health": 6500,
+		"base_health": 65000,
 		"weapon": {
 			"name": "Blade of Corrupted Souls"
 		},
@@ -81,7 +81,7 @@
 		}
 	},{
 		"name": "Alsha Jaza: The Leader of The Sunlight Cult",
-		"base_health": 8000,
+		"base_health": 80000,
 		"weapon": {
 			"name": "Prisim Caster's Blade"
 		},
@@ -97,7 +97,7 @@
 		}
 	},{
 		"name": "Maragaedas: The Deadly Blossom",
-		"base_health": 6500,
+		"base_health": 65000,
 		"weapon": {
 			"name": "Plumage of Destruction"
 		},
