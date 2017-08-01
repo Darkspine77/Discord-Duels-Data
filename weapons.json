@@ -2158,5 +2158,32 @@
     ],
     "boss": true,
     "goldToUpgrade": 300
+  },
+  {
+    "id": 82,
+    "type": "Melee",
+    "name": "Molten Battle Axe",
+    "level": 1,
+    "count": null,
+    "moveDamage": {
+      "0": [
+        7,
+        70
+      ],
+      "1": [
+        20,
+        168
+      ],
+      "2": [
+        10,
+        100
+      ]
+    },
+    "effects": [
+      "Eruption",
+      "Inferno Frenzy"
+    ],
+    "goldToUpgrade": 520,
+    "tier":8
   }
 ]
