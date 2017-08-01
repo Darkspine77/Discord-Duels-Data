@@ -2677,7 +2677,7 @@
     "equalCounter": "0",
     "clearCounters": false,
     "requiredCounters": 10,
-    "applyStatus": true,
+    "applyStatus": false,
     "statusTarget": "enemy",
     "statusEffect": "stun",
     "statusStrength": [
