@@ -2102,7 +2102,7 @@
       0,
       0
     ],
-    "overpower": false,
+    "overpower": true,
     "effectDescription": null,
     "effectOnMoves": [
       "0",
@@ -2111,8 +2111,8 @@
     ],
     "effectModifier": "damage",
     "modifier": [
-      4,
-      49
+      12,
+      119
     ],
     "requiresSuccess": 0,
     "requiresCounters": true,
@@ -2124,7 +2124,7 @@
       1,
       1
     ],
-    "applyStatus": true,
+    "applyStatus": false,
     "statusTarget": "enemy",
     "statusEffect": "stun",
     "statusStrength": [
