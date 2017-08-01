@@ -2120,9 +2120,9 @@
     "equalCounter": "1",
     "clearCounters": true,
     "requiredCounters": [
-      1,
-      1,
-      1
+      0,
+      0,
+      0
     ],
     "applyStatus": false,
     "statusTarget": "enemy",
@@ -3528,10 +3528,10 @@
     ],
     "effectModifier": "lessdamage",
     "modifier": [
-      17,
-      176
+      3,
+      30
     ],
-    "requiresSuccess": 1,
+    "requiresSuccess": -1,
     "requiresCounters": false,
     "modiferValueEqualsCounters": false,
     "equalCounter": "0",
@@ -3544,7 +3544,7 @@
       0,
       0
     ],
-    "statusDuration": 2
+    "statusDuration": 1
   },
   {
     "name": "Heart Stoping Howl",
