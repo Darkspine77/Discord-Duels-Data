@@ -2097,7 +2097,7 @@
   {
     "name": "From Beneath",
     "id": 56,
-    "chance": 0,
+    "chance": 75,
     "recoil": [
       0,
       0
@@ -2111,11 +2111,11 @@
     ],
     "effectModifier": "damage",
     "modifier": [
-      12,
-      119
+      0,
+      0
     ],
     "requiresSuccess": 0,
-    "requiresCounters": true,
+    "requiresCounters": false,
     "modiferValueEqualsCounters": false,
     "equalCounter": "1",
     "clearCounters": true,
@@ -2124,14 +2124,14 @@
       0,
       0
     ],
-    "applyStatus": false,
+    "applyStatus": true,
     "statusTarget": "enemy",
     "statusEffect": "stun",
     "statusStrength": [
       0,
       0
     ],
-    "statusDuration": 2
+    "statusDuration": 1
   },
   {
     "name": "Power Engine",
