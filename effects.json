@@ -379,7 +379,7 @@
   {
     "name": "Constricting Grapple",
     "id": 11,
-    "chance": 50,
+    "chance": 55,
     "recoil": [
       0,
       0
@@ -455,7 +455,7 @@
   {
     "name": "Radiance",
     "id": 13,
-    "chance": 15,
+    "chance": 55,
     "recoil": [
       0,
       0
@@ -644,7 +644,7 @@
   {
     "name": "Surge",
     "id": 18,
-    "chance": 0,
+    "chance": 39,
     "recoil": [
       0,
       0
@@ -794,7 +794,7 @@
   {
     "name": "Stunning Shuriken",
     "id": 22,
-    "chance": 0,
+    "chance": 55,
     "recoil": [
       0,
       0
@@ -868,7 +868,7 @@
   {
     "name": "Spider's Assualt",
     "id": 24,
-    "chance": 0,
+    "chance": 39,
     "recoil": [
       0,
       0
@@ -1331,7 +1331,7 @@
   {
     "name": "Banish",
     "id": 36,
-    "chance": 0,
+    "chance": 30,
     "recoil": [
       7,
       77
@@ -1446,7 +1446,7 @@
   {
     "name": "Alure",
     "id": 39,
-    "chance": 60,
+    "chance": 39,
     "recoil": [
       0,
       0
@@ -1746,7 +1746,7 @@
   {
     "name": "Swallow",
     "id": 47,
-    "chance": 40,
+    "chance": 20,
     "recoil": [
       0,
       0
@@ -2097,7 +2097,7 @@
   {
     "name": "From Beneath",
     "id": 56,
-    "chance": 75,
+    "chance": 55,
     "recoil": [
       0,
       0
@@ -2291,7 +2291,7 @@
   {
     "name": "Winter's Curse",
     "id": 61,
-    "chance": 30,
+    "chance": 55,
     "recoil": [
       0,
       0
@@ -2369,7 +2369,7 @@
   {
     "name": "Predatory Gaze",
     "id": 63,
-    "chance": 45,
+    "chance": 39,
     "recoil": [
       0,
       0
@@ -2757,7 +2757,7 @@
   {
     "name": "Swift Stab",
     "id": 75,
-    "chance": 0,
+    "chance": 55,
     "recoil": [
       0,
       0
@@ -2934,7 +2934,7 @@
   {
     "name": "Bewitched Shot",
     "id": 80,
-    "chance": 20,
+    "chance": 55,
     "recoil": [
       0,
       0
@@ -3009,7 +3009,7 @@
   {
     "name": "Plane Shift",
     "id": 82,
-    "chance": 50,
+    "chance": 55,
     "recoil": [
       0,
       0
@@ -3203,7 +3203,7 @@
   {
     "name": "Detatchable Monster Trap",
     "id": 87,
-    "chance": 0,
+    "chance": 39,
     "recoil": [
       0,
       0
@@ -3238,7 +3238,7 @@
   {
     "name": "Soul Silence",
     "id": 88,
-    "chance": 20,
+    "chance": 55,
     "recoil": [
       0,
       0
@@ -3514,7 +3514,7 @@
   {
     "name": "Launching Strike",
     "id": 96,
-    "chance": 0,
+    "chance": 55,
     "recoil": [
       0,
       0
@@ -3651,7 +3651,7 @@
   {
     "name": "Rift Pulse",
     "id": 100,
-    "chance": 0,
+    "chance": 39,
     "recoil": [
       0,
       0
@@ -3756,7 +3756,7 @@
   {
     "name": "Pollen Storm",
     "id": 102,
-    "chance": 10,
+    "chance": 30,
     "recoil": [
       0,
       0
