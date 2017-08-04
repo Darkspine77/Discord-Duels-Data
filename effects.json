@@ -2118,7 +2118,7 @@
     "requiresCounters": false,
     "modiferValueEqualsCounters": false,
     "equalCounter": "1",
-    "clearCounters": true,
+    "clearCounters": false,
     "requiredCounters": [
       0,
       0,
